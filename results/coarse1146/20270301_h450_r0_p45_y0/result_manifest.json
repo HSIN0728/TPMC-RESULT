@@ -1,0 +1,26 @@
+﻿{
+    "schema_version":  1,
+    "result_only":  true,
+    "geometry_alias":  "coarse1146",
+    "case_name":  "20270301_h450_r0_p45_y0",
+    "source_case_relative":  "data/cases/coarse1146/20270301_h450_r0_p45_y0",
+    "status":  "RESULTS_PRESENT",
+    "files":  [
+                  {
+                      "relative_path":  "results/coarse1146/20270301_h450_r0_p45_y0/output/tpmc/force_moment.json",
+                      "sha256":  "d942d552732a79cda39e63a624c341f11b6b398f162a3047c85abde335568db1",
+                      "bytes":  320
+                  },
+                  {
+                      "relative_path":  "results/coarse1146/20270301_h450_r0_p45_y0/output/tpmc/run_manifest.json",
+                      "sha256":  "fb80a6d89114599f05c2d91ef5028dcf48bb7908a9517bcc24c97360e8570231",
+                      "bytes":  1737
+                  },
+                  {
+                      "relative_path":  "results/coarse1146/20270301_h450_r0_p45_y0/output/tpmc/run_summary.json",
+                      "sha256":  "b7daeb21a6d7133c8132a2c05dbf5b70b07fa1b39b2495e27f84e85a8ebe674f",
+                      "bytes":  487
+                  }
+              ],
+    "total_bytes":  2544
+}
