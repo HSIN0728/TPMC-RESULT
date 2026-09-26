@@ -1,0 +1,76 @@
+{
+  "A_ref": 1.0,
+  "Cd": 0.952720591050041,
+  "Cl": 0.12267597969587546,
+  "Cmx": 0.00046547014867666766,
+  "Cmy": -0.044866930276041196,
+  "Cmz": -0.03297840190592436,
+  "Cx": -0.6606157211383686,
+  "Cy": 0.17383150471156686,
+  "Cy_body": 0.41478084960754813,
+  "Cz": -0.5869301733758828,
+  "Drag": 2.7010189178327274e-05,
+  "F_body_x": -1.872884429049484e-05,
+  "F_body_y": 1.1759281074317352e-05,
+  "F_body_z": -1.6639815667129154e-05,
+  "Fx": -1.872884429049484e-05,
+  "Fy": 1.1759281074317352e-05,
+  "Fz": -1.6639815667129154e-05,
+  "L_ref": 1.41,
+  "Lift": 3.4779361864849128e-06,
+  "Mx": 1.8606857053291488e-08,
+  "My": -1.7935254504283999e-06,
+  "Mz": -1.3182895011722347e-06,
+  "Side": 4.9282254120674255e-06,
+  "aerodynamic_coefficient_schema_version": "2.0",
+  "deprecated_legacy_body_axis_aerodynamic_names": {
+    "Cd_legacy": -0.6606157211383686,
+    "Cl_legacy": -0.5869301733758828,
+    "Cy_legacy": 0.41478084960754813,
+    "F_drag_legacy": -1.872884429049484e-05,
+    "F_lift_legacy": -1.6639815667129154e-05,
+    "F_side_legacy": 1.1759281074317352e-05,
+    "deprecated": true,
+    "reason": "Before schema 2.0, F_drag/F_side/F_lift and Cd/Cy/Cl were body-axis projections."
+  },
+  "force_coefficient_definitions": {
+    "body_axis": {
+      "Cx": "F_body_x / (q_inf * A_ref)",
+      "Cy_body": "F_body_y / (q_inf * A_ref)",
+      "Cz": "F_body_z / (q_inf * A_ref)"
+    },
+    "wind_axis": {
+      "Cd": "dot(F, e_D) / (q_inf * A_ref)",
+      "Cl": "dot(F, e_L) / (q_inf * A_ref)",
+      "Cy": "dot(F, e_S) / (q_inf * A_ref)",
+      "handedness": "cross(e_D, e_S) = e_L",
+      "lift_reference": "projection of body +Z (nadir) onto plane normal to e_D",
+      "side_reference": "e_S = e_L x e_D; at R0 this is -body Y",
+      "singular_lift_fallback": "project body +Y, then body +X if needed",
+      "sparta_side_sign_validation": "NOT_AVAILABLE_NO_INDEPENDENT_SPARTA_SIDE_OUTPUT"
+    }
+  },
+  "gnn_dataset_export_status": "DISABLED",
+  "hit_count": 81376,
+  "moment_coefficient_definition": "Mx/My/Mz divided by q_inf * A_ref * L_ref",
+  "moment_coefficient_frame": "SATELLA body-fixed axes",
+  "q_inf": 2.8350588233385397e-05,
+  "runtime": 127.57930374145508,
+  "status": "PASS",
+  "total_bounces": 91893,
+  "wind_axis_drag_unit_vector": [
+    -0.5,
+    0.5,
+    -0.7071067811865475
+  ],
+  "wind_axis_lift_unit_vector": [
+    -0.49999999999999994,
+    0.49999999999999994,
+    0.7071067811865477
+  ],
+  "wind_axis_side_unit_vector": [
+    -0.7071067811865476,
+    -0.7071067811865476,
+    0.0
+  ]
+}
