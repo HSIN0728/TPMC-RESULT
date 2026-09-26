@@ -1,0 +1,85 @@
+{
+  "CG": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "attitude": {
+    "pitch_deg": 50.0,
+    "roll_deg": 0.0,
+    "yaw_deg": 160.0
+  },
+  "case_name": "20270301_h450_r0_p50_y160_TPMC_N400000_S101",
+  "component_output": "AUTHORITY_GATED_NOT_GENERATED",
+  "environment": {
+    "altitude_km": 450.0,
+    "density_kg_m3": 9.486e-13,
+    "epoch": "2027-03-01T00:00:00Z",
+    "latitude_deg": 23.0,
+    "longitude_deg": 120.2,
+    "species_molecular_mass_kg": {
+      "Ar": 6.63e-26,
+      "H": 1.67e-27,
+      "He": 6.65e-27,
+      "N": 2.325e-26,
+      "N2": 4.65e-26,
+      "NO": 4.985e-26,
+      "O": 2.657e-26,
+      "O2": 5.312e-26
+    },
+    "species_number_density_m3": {
+      "Ar": 7290000.0,
+      "H": 137000000000.0,
+      "He": 5280000000000.0,
+      "N": 554000000000.0,
+      "N2": 309000000000.0,
+      "NO": 150000000.0,
+      "O": 33300000000000.0,
+      "O2": 7780000000.0
+    },
+    "speed_m_s": 7600.0,
+    "strict_species_masses": true,
+    "temperature_K": 867.2,
+    "velocity_m_s": [
+      4590.573079018408,
+      1670.8319589864527,
+      -5821.937767704233
+    ]
+  },
+  "geometry_alias": "Av4_3244",
+  "geometry_id": "satella-v3-adcs-curvature-A-v4",
+  "geometry_sha256": "94735a1dcf4a533fcecc90e1ee6ae9a10b83329fcf37a356e3a4939d8eafb9a4",
+  "geometry_triangle_count": 3244,
+  "geometry_units": "m",
+  "git_sha": "e999b9abb4e974688956cc3924946ec06051b03f",
+  "gnn_dataset_export": {
+    "enabled": true,
+    "geometry_id": "satella-v3-adcs-curvature-A-v4",
+    "labels_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h450_r0_p50_y160_TPMC_N400000_S101\\output\\gnn_dataset\\triangle_labels.csv",
+    "manifest_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h450_r0_p50_y160_TPMC_N400000_S101\\output\\gnn_dataset\\gnn_dataset_manifest.json",
+    "mapped_stl_sha256": "94735a1dcf4a533fcecc90e1ee6ae9a10b83329fcf37a356e3a4939d8eafb9a4",
+    "mapping_manifest_path": "D:\\TPMC\\data\\geometry\\Av4_3244\\mapping\\stl_facet_semantic_map_manifest.json",
+    "mapping_path": "D:\\TPMC\\data\\geometry\\Av4_3244\\mapping\\stl_facet_semantic_map.jsonl",
+    "sample_manifest_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h450_r0_p50_y160_TPMC_N400000_S101\\output\\gnn_dataset\\sample_manifest.json",
+    "semantic_map_manifest_sha256": "b22eb425678709f89abe508345edab07190f7db54a01cfc52d7f4b979b4b2e26",
+    "semantic_map_sha256": "9a76adc23b34bebb80449513d8ac53b3ad45cd20577db7e264b22f73bb7871d3",
+    "status": "PASS",
+    "stl_path": "D:\\TPMC\\data\\geometry\\Av4_3244\\source\\satellite.stl",
+    "triangle_count": 3244,
+    "type": "semantic"
+  },
+  "gnn_enabled": false,
+  "gnn_inference_run": false,
+  "gnn_training_run": false,
+  "intersection_backend": "bvh",
+  "output_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h450_r0_p50_y160_TPMC_N400000_S101\\output\\tpmc",
+  "particle_count": 400000,
+  "random_seed": 101,
+  "scale_factor": 1.0,
+  "solver_mode": "tpmc",
+  "source_geometry_authority": "D:\\TPMC\\SATELLA_NEW_GEOMETRY\\candidates\\satella-v3-adcs-curvature-A-v4\\mapped.stl",
+  "surface_model": "default",
+  "timestamp": "2026-09-25T09:40:31.212651+00:00",
+  "tpmc_repository_path": "D:\\TPMC\\tpmc-sat-aero-gnn-snapshot",
+  "triangle_output": "AUTHORITY_GATED_NOT_GENERATED"
+}

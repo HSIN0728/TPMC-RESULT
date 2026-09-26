@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "result_only": true,
+  "geometry_alias": "Av4_3244",
+  "case_name": "20270301_h250_r0_p10_ym120_TPMC_N400000_S101",
+  "source_case_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h250_r0_p10_ym120_TPMC_N400000_S101",
+  "files": [
+    {
+      "relative_path": "results/Av4_3244/20270301_h250_r0_p10_ym120_TPMC_N400000_S101/gnn_dataset/gnn_dataset_manifest.json",
+      "sha256": "dbfeeecda2563f7e492785e89c4ce7200f7b523d5a0c6c20b1bce0ceaa140f45",
+      "bytes": 1831
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h250_r0_p10_ym120_TPMC_N400000_S101/gnn_dataset/sample_manifest.json",
+      "sha256": "dbfeeecda2563f7e492785e89c4ce7200f7b523d5a0c6c20b1bce0ceaa140f45",
+      "bytes": 1831
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h250_r0_p10_ym120_TPMC_N400000_S101/gnn_dataset/triangle_dataset_manifest.json",
+      "sha256": "b4ab6daa0acb827a2351b2902fd78e1c5db8b6525ff361f98f2c8c705eccb2b9",
+      "bytes": 8550
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h250_r0_p10_ym120_TPMC_N400000_S101/gnn_dataset/triangle_labels.csv",
+      "sha256": "5cbd601f9bd6251c992db170775fc20ba292a18d0091d332d72f5aa71cbb42da",
+      "bytes": 1319709
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h250_r0_p10_ym120_TPMC_N400000_S101/gnn_dataset/triangle_labels.jsonl",
+      "sha256": "cf1d8be993296b0d9488c1c7e79e046e3ed4375f7c83a7d0ae761844e78d1aa5",
+      "bytes": 2136324
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h250_r0_p10_ym120_TPMC_N400000_S101/tpmc/case_check.json",
+      "sha256": "69c74ccd107450b9c0f6cbdecd37cb877c7495a0e064da7cd4f62655cf07e0ec",
+      "bytes": 1804
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h250_r0_p10_ym120_TPMC_N400000_S101/tpmc/force_moment.json",
+      "sha256": "c881ea46fcfcdb9dcd741dc0094106993bca312e1f20616881167906edfe3e7b",
+      "bytes": 314
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h250_r0_p10_ym120_TPMC_N400000_S101/tpmc/run_manifest.json",
+      "sha256": "9c94b00c628c1558ef0b6f171756bdeb908e15445f3bd63fc1225cd114b48231",
+      "bytes": 6106
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h250_r0_p10_ym120_TPMC_N400000_S101/tpmc/run_summary.json",
+      "sha256": "7d4c0f2d851e39038475b8e86dcea8ea65c851466054834668746cf37b808534",
+      "bytes": 532
+    }
+  ]
+}
