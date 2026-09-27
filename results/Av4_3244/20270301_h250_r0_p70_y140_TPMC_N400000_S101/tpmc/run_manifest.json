@@ -1,0 +1,346 @@
+{
+  "CG": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "aerodynamic_coefficient_schema_version": "2.1",
+  "attitude": {
+    "pitch_deg": 70.0,
+    "roll_deg": 0.0,
+    "yaw_deg": 140.0
+  },
+  "case_config_at_run_sha256": "20c64448d61d09919cbccc5227cafc1e1ba714876f282ffc6062a84e8744bbc4",
+  "case_config_at_run_snapshot": {
+    "attitude": {
+      "pitch_deg": 70.0,
+      "roll_deg": 0.0,
+      "yaw_deg": 140.0
+    },
+    "batch": {
+      "case_count": 180,
+      "mode": "full_attitude",
+      "sequence": 161,
+      "sweep_axis": null
+    },
+    "case_name": "20270301_h250_r0_p70_y140_TPMC_N400000_S101",
+    "environment": {
+      "altitude_km": 250.0,
+      "atmosphere": {
+        "altitude_km": 250.0,
+        "anomalous_oxygen": {
+          "included_in_sparta_mixture": false,
+          "note": "\u4fdd\u7559 NRLMSIS 2.1 \u539f\u59cb\u503c\uff1b\u672a\u5408\u4f75\u81f3 O\uff0c\u672a\u7d0d\u5165 total \u6216 fractions\u3002",
+          "number_density_m3": 4964.6376953125
+        },
+        "ap_source": "agi_cssi_monthly_ap",
+        "atmosphere_mode": "forecast",
+        "data_retrieval": "cache",
+        "datetime_utc": "2027-03-01T00:00:00Z",
+        "fractions": {
+          "Ar": 6.427538463340377e-05,
+          "H": 8.631026442556523e-05,
+          "He": 0.006820509182898751,
+          "N": 0.008236849476217578,
+          "N2": 0.1455135589465074,
+          "NO": 0.00011529612417602885,
+          "O": 0.82955821552418,
+          "O2": 0.009604985096961309
+        },
+        "implementation": "pymsis 0.12.0 / NRLMSIS 2.1",
+        "latitude_deg": 23.0,
+        "longitude_deg": 120.2,
+        "model": "NRLMSIS 2.1",
+        "number_densities_m3": {
+          "Ar": 133830041600.0,
+          "H": 179709640704.0,
+          "He": 14201222332416.0,
+          "N": 17150234329088.0,
+          "N2": 302978904883200.0,
+          "NO": 240062119936.0,
+          "O": 1727252370817024.0,
+          "O2": 19998877679616.0
+        },
+        "pymsis_version": "0.12.0",
+        "space_weather": {
+          "ap": 16.0,
+          "ap_mode": "daily",
+          "f107": 124.2,
+          "f107_data_type": "PRM",
+          "f107a": 126.0
+        },
+        "space_weather_retrieved_at_utc": "2026-09-26T16:16:02.149687+00:00",
+        "space_weather_source": "AGI/CSSI SpaceWeather-All-v1.2.txt",
+        "space_weather_source_dates": {
+          "ap": "2027-03-01",
+          "f107": "2027-03-01",
+          "f107a": "2027-03-01"
+        },
+        "space_weather_source_fields": {
+          "ap": "AP_AVG",
+          "f107": "F10.7_OBS",
+          "f107a": "F10.7_OBS_CENTER81"
+        },
+        "space_weather_source_sections": {
+          "ap": "MONTHLY_PREDICTED",
+          "f107": "MONTHLY_PREDICTED",
+          "f107a": "MONTHLY_PREDICTED"
+        },
+        "space_weather_source_types": {
+          "ap": "PRM_MONTHLY",
+          "f107": "PRM_MONTHLY",
+          "f107a": "PRM_MONTHLY"
+        },
+        "space_weather_source_updated": "2026 Sep 26 15:40:00.00",
+        "space_weather_source_url": "https://ftp.agi.com/pub/DynamicEarthData/SpaceWeather-All-v1.2.txt",
+        "space_weather_status": "forecast",
+        "space_weather_status_detail": "\u4f7f\u7528 AGI/CSSI MONTHLY_PREDICTED \u5217\u4e2d\u7684 F10.7\u3001F10.7a \u8207 Ap Avg\u3002",
+        "temperature_K": 857.133056640625,
+        "total_number_density_m3": 2082135211843584.0
+      },
+      "atmosphere_source": "nrlmsis21_auto",
+      "density_kg_m3": 6.155827617221706e-11,
+      "epoch": "2027-03-01T00:00:00Z",
+      "exospheric_temperature_K": 857.133056640625,
+      "latitude_deg": 23.0,
+      "longitude_deg": 120.2,
+      "species_molecular_mass_kg": {
+        "Ar": 6.63e-26,
+        "H": 1.67e-27,
+        "He": 6.65e-27,
+        "N": 2.325e-26,
+        "N2": 4.65e-26,
+        "NO": 4.985e-26,
+        "O": 2.657e-26,
+        "O2": 5.312e-26
+      },
+      "species_number_density_m3": {
+        "Ar": 133830041600.0,
+        "H": 179709640704.0,
+        "He": 14201222332416.0,
+        "N": 17150234329088.0,
+        "N2": 302978904883200.0,
+        "NO": 240062119936.0,
+        "O": 1727252370817024.0,
+        "O2": 19998877679616.0
+      },
+      "speed_m_s": 7600.0,
+      "strict_species_masses": true,
+      "temperature_K": 857.133056640625,
+      "velocity_m_s": [
+        1991.2199897433259,
+        1670.8319589864527,
+        -7141.663917972904
+      ]
+    },
+    "geometry": {
+      "geometry_alias": "Av4_3244",
+      "geometry_id": "satella-v3-adcs-curvature-A-v4",
+      "scale_factor": 1.0,
+      "stl_sha256": "94735a1dcf4a533fcecc90e1ee6ae9a10b83329fcf37a356e3a4939d8eafb9a4",
+      "triangle_count": 3244,
+      "units": "m"
+    },
+    "gnn": {
+      "enabled": false,
+      "model_id": null
+    },
+    "gnn_dataset_export": {
+      "enabled": true,
+      "format": "force_only_v1",
+      "output_directory": "output/gnn_dataset"
+    },
+    "output": {
+      "directory": "output/tpmc"
+    },
+    "physical_case_name": "20270301_h250_r0_p70_y140",
+    "simulation": {
+      "A_ref": 1.0,
+      "CG": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "L_ref": 1.41,
+      "density_normalization_authority": "native_atmosphere",
+      "intersection_backend": "bvh",
+      "n_workers": 10,
+      "particle_count": 400000,
+      "random_seed": 101,
+      "solver_mode": "tpmc"
+    },
+    "surface": {
+      "accommodation": 1.0,
+      "model": "diffuse",
+      "profile": "sparta_v4_uniform_diffuse",
+      "reference": "SPARTA v4 surf_collide diffuse T acc",
+      "scope": "all_components",
+      "wall_temperature_K": 300.0
+    }
+  },
+  "case_config_at_run_snapshot_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h250_r0_p70_y140_TPMC_N400000_S101\\output\\tpmc\\case_config_at_run.json",
+  "case_config_hash_canonicalization": "UTF-8 JSON, ensure_ascii=false, sorted keys, compact separators",
+  "case_name": "20270301_h250_r0_p70_y140_TPMC_N400000_S101",
+  "component_output": "AUTHORITY_GATED_NOT_GENERATED",
+  "environment": {
+    "altitude_km": 250.0,
+    "atmosphere": {
+      "altitude_km": 250.0,
+      "anomalous_oxygen": {
+        "included_in_sparta_mixture": false,
+        "note": "\u4fdd\u7559 NRLMSIS 2.1 \u539f\u59cb\u503c\uff1b\u672a\u5408\u4f75\u81f3 O\uff0c\u672a\u7d0d\u5165 total \u6216 fractions\u3002",
+        "number_density_m3": 4964.6376953125
+      },
+      "ap_source": "agi_cssi_monthly_ap",
+      "atmosphere_mode": "forecast",
+      "data_retrieval": "cache",
+      "datetime_utc": "2027-03-01T00:00:00Z",
+      "fractions": {
+        "Ar": 6.427538463340377e-05,
+        "H": 8.631026442556523e-05,
+        "He": 0.006820509182898751,
+        "N": 0.008236849476217578,
+        "N2": 0.1455135589465074,
+        "NO": 0.00011529612417602885,
+        "O": 0.82955821552418,
+        "O2": 0.009604985096961309
+      },
+      "implementation": "pymsis 0.12.0 / NRLMSIS 2.1",
+      "latitude_deg": 23.0,
+      "longitude_deg": 120.2,
+      "model": "NRLMSIS 2.1",
+      "number_densities_m3": {
+        "Ar": 133830041600.0,
+        "H": 179709640704.0,
+        "He": 14201222332416.0,
+        "N": 17150234329088.0,
+        "N2": 302978904883200.0,
+        "NO": 240062119936.0,
+        "O": 1727252370817024.0,
+        "O2": 19998877679616.0
+      },
+      "pymsis_version": "0.12.0",
+      "space_weather": {
+        "ap": 16.0,
+        "ap_mode": "daily",
+        "f107": 124.2,
+        "f107_data_type": "PRM",
+        "f107a": 126.0
+      },
+      "space_weather_retrieved_at_utc": "2026-09-26T16:16:02.149687+00:00",
+      "space_weather_source": "AGI/CSSI SpaceWeather-All-v1.2.txt",
+      "space_weather_source_dates": {
+        "ap": "2027-03-01",
+        "f107": "2027-03-01",
+        "f107a": "2027-03-01"
+      },
+      "space_weather_source_fields": {
+        "ap": "AP_AVG",
+        "f107": "F10.7_OBS",
+        "f107a": "F10.7_OBS_CENTER81"
+      },
+      "space_weather_source_sections": {
+        "ap": "MONTHLY_PREDICTED",
+        "f107": "MONTHLY_PREDICTED",
+        "f107a": "MONTHLY_PREDICTED"
+      },
+      "space_weather_source_types": {
+        "ap": "PRM_MONTHLY",
+        "f107": "PRM_MONTHLY",
+        "f107a": "PRM_MONTHLY"
+      },
+      "space_weather_source_updated": "2026 Sep 26 15:40:00.00",
+      "space_weather_source_url": "https://ftp.agi.com/pub/DynamicEarthData/SpaceWeather-All-v1.2.txt",
+      "space_weather_status": "forecast",
+      "space_weather_status_detail": "\u4f7f\u7528 AGI/CSSI MONTHLY_PREDICTED \u5217\u4e2d\u7684 F10.7\u3001F10.7a \u8207 Ap Avg\u3002",
+      "temperature_K": 857.133056640625,
+      "total_number_density_m3": 2082135211843584.0
+    },
+    "atmosphere_source": "nrlmsis21_auto",
+    "density_kg_m3": 6.155827617221706e-11,
+    "epoch": "2027-03-01T00:00:00Z",
+    "exospheric_temperature_K": 857.133056640625,
+    "latitude_deg": 23.0,
+    "longitude_deg": 120.2,
+    "species_molecular_mass_kg": {
+      "Ar": 6.63e-26,
+      "H": 1.67e-27,
+      "He": 6.65e-27,
+      "N": 2.325e-26,
+      "N2": 4.65e-26,
+      "NO": 4.985e-26,
+      "O": 2.657e-26,
+      "O2": 5.312e-26
+    },
+    "species_number_density_m3": {
+      "Ar": 133830041600.0,
+      "H": 179709640704.0,
+      "He": 14201222332416.0,
+      "N": 17150234329088.0,
+      "N2": 302978904883200.0,
+      "NO": 240062119936.0,
+      "O": 1727252370817024.0,
+      "O2": 19998877679616.0
+    },
+    "speed_m_s": 7600.0,
+    "strict_species_masses": true,
+    "temperature_K": 857.133056640625,
+    "velocity_m_s": [
+      1991.2199897433259,
+      1670.8319589864527,
+      -7141.663917972904
+    ]
+  },
+  "geometry_alias": "Av4_3244",
+  "geometry_id": "satella-v3-adcs-curvature-A-v4",
+  "geometry_sha256": "94735a1dcf4a533fcecc90e1ee6ae9a10b83329fcf37a356e3a4939d8eafb9a4",
+  "geometry_triangle_count": 3244,
+  "geometry_units": "m",
+  "git_sha": "e999b9abb4e974688956cc3924946ec06051b03f",
+  "git_worktree_dirty": true,
+  "gnn_dataset_export": {
+    "enabled": true,
+    "geometry_id": "satella-v3-adcs-curvature-A-v4",
+    "labels_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h250_r0_p70_y140_TPMC_N400000_S101\\output\\gnn_dataset\\triangle_labels.csv",
+    "manifest_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h250_r0_p70_y140_TPMC_N400000_S101\\output\\gnn_dataset\\gnn_dataset_manifest.json",
+    "mapped_stl_sha256": "94735a1dcf4a533fcecc90e1ee6ae9a10b83329fcf37a356e3a4939d8eafb9a4",
+    "mapping_manifest_path": "D:\\TPMC\\data\\geometry\\Av4_3244\\mapping\\stl_facet_semantic_map_manifest.json",
+    "mapping_path": "D:\\TPMC\\data\\geometry\\Av4_3244\\mapping\\stl_facet_semantic_map.jsonl",
+    "sample_manifest_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h250_r0_p70_y140_TPMC_N400000_S101\\output\\gnn_dataset\\sample_manifest.json",
+    "semantic_map_manifest_sha256": "b22eb425678709f89abe508345edab07190f7db54a01cfc52d7f4b979b4b2e26",
+    "semantic_map_sha256": "9a76adc23b34bebb80449513d8ac53b3ad45cd20577db7e264b22f73bb7871d3",
+    "status": "PASS",
+    "stl_path": "D:\\TPMC\\data\\geometry\\Av4_3244\\source\\satellite.stl",
+    "triangle_count": 3244,
+    "type": "semantic"
+  },
+  "gnn_enabled": false,
+  "gnn_inference_run": false,
+  "gnn_training_run": false,
+  "intersection_backend": "bvh",
+  "output_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h250_r0_p70_y140_TPMC_N400000_S101\\output\\tpmc",
+  "particle_count": 400000,
+  "random_seed": 101,
+  "scale_factor": 1.0,
+  "solver_mode": "tpmc",
+  "solver_output_schema": "TPMC-run-summary-2.1-sparta-wind-axis",
+  "solver_source_sha256": {
+    "TPMC/main.py": "d6e90efe01a40b97f512c555c939a3f41a31f19fb4bbc26f126a5fc6f06bf1f8",
+    "TPMC/physics/reference.py": "c70a140da1857a607af6f6908f5d33dfb679ce068fc09601e1e2174c6a1097c9",
+    "TPMC/tpmc_v2/solver_adapter.py": "75304c0d59f15d858ec017d542e60326e2f1a026bf80106a1a76f0b0d35bbd6e",
+    "runners/run_tpmc_case.py": "08aade3b83926f5ae072fe746d0eb7804e9eda54ed6911c382e212d8fc114ece"
+  },
+  "source_geometry_authority": "D:\\TPMC\\SATELLA_NEW_GEOMETRY\\candidates\\satella-v3-adcs-curvature-A-v4\\mapped.stl",
+  "surface_model": {
+    "accommodation": 1.0,
+    "effective_model": "diffuse",
+    "profile": "sparta_v4_uniform_diffuse",
+    "requested_model": "diffuse",
+    "scope": "all_mapped_and_default_surfaces",
+    "sparta_equivalent": "surf_collide satwall diffuse 300 1",
+    "wall_temperature_K": 300.0
+  },
+  "timestamp": "2026-09-27T10:23:08.812082+00:00",
+  "tpmc_repository_path": "D:\\TPMC\\tpmc-sat-aero-gnn-snapshot",
+  "triangle_output": "AUTHORITY_GATED_NOT_GENERATED"
+}
