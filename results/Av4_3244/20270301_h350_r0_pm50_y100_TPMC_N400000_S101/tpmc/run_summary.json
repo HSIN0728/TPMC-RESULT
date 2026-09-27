@@ -1,0 +1,85 @@
+{
+  "A_ref": 1.0,
+  "Cd": 0.37939728233580916,
+  "Cl": -0.0029882935463730305,
+  "Cmx": -0.0002679593368044517,
+  "Cmy": 0.00879764033216463,
+  "Cmz": -0.00711156279700384,
+  "Cx": 0.05853086768474088,
+  "Cy": 0.016028968082913556,
+  "Cy_body": 0.23963789751578674,
+  "Cz": 0.2887143418020738,
+  "Drag": 7.457858555757834e-05,
+  "F_body_x": 1.150548389938676e-05,
+  "F_body_y": 4.7105913180739905e-05,
+  "F_body_z": 5.675292956560433e-05,
+  "Fx": 1.150548389938676e-05,
+  "Fy": 4.7105913180739905e-05,
+  "Fz": 5.675292956560433e-05,
+  "L_ref": 1.41,
+  "Lift": -5.874124994972467e-07,
+  "Mx": -7.426906109061121e-08,
+  "My": 2.4384016436030565e-06,
+  "Mz": -1.9710792619472608e-06,
+  "Side": 3.150833765101096e-06,
+  "aerodynamic_coefficient_schema_version": "2.1",
+  "deprecated_legacy_body_axis_aerodynamic_names": {
+    "Cd_legacy": 0.05853086768474088,
+    "Cl_legacy": 0.2887143418020738,
+    "Cy_legacy": 0.23963789751578674,
+    "F_drag_legacy": 1.150548389938676e-05,
+    "F_lift_legacy": 5.675292956560433e-05,
+    "F_side_legacy": 4.7105913180739905e-05,
+    "deprecated": true,
+    "reason": "Before schema 2.0, F_drag/F_side/F_lift and Cd/Cy/Cl were body-axis projections."
+  },
+  "force_coefficient_definitions": {
+    "body_axis": {
+      "Cx": "F_body_x / (q_inf * A_ref)",
+      "Cy_body": "F_body_y / (q_inf * A_ref)",
+      "Cz": "F_body_z / (q_inf * A_ref)"
+    },
+    "wind_axis": {
+      "Cd": "dot(F, e_D) / (q_inf * A_ref)",
+      "Cl": "dot(F, e_L) / (q_inf * A_ref)",
+      "Cy": "dot(F, e_S) / (q_inf * A_ref)",
+      "handedness": "cross(e_D, e_L) = e_S (ordered D-L-S is right handed)",
+      "lift_reference": "projection of body +Z (nadir) onto plane normal to e_D",
+      "side_reference": "e_S = e_D x e_L; at R0 this is +body Y",
+      "singular_lift_fallback": "project body +Y, then body +X if needed",
+      "sparta_side_sign_validation": "VERIFIED_AGAINST_SPARTA_V4_FORMAL_INPUT"
+    }
+  },
+  "gnn_dataset_export_status": "PASS",
+  "hit_count": 37567,
+  "moment_coefficient_definition": "Mx/My/Mz divided by q_inf * A_ref * L_ref",
+  "moment_coefficient_frame": "SATELLA body-fixed axes",
+  "q_inf": 0.0001965712171115868,
+  "runtime": 123.88515162467957,
+  "status": "PASS",
+  "surface_model_config": {
+    "accommodation": 1.0,
+    "effective_model": "diffuse",
+    "profile": "sparta_v4_uniform_diffuse",
+    "requested_model": "diffuse",
+    "scope": "all_mapped_and_default_surfaces",
+    "sparta_equivalent": "surf_collide satwall diffuse 300 1",
+    "wall_temperature_K": 300.0
+  },
+  "total_bounces": 45333,
+  "wind_axis_drag_unit_vector": [
+    0.11161889704894964,
+    0.6330222215594891,
+    0.766044443118978
+  ],
+  "wind_axis_lift_unit_vector": [
+    -0.13302222155948898,
+    -0.7544065067354889,
+    0.6427876096865394
+  ],
+  "wind_axis_side_unit_vector": [
+    0.9848077530122081,
+    -0.1736481776669303,
+    0.0
+  ]
+}

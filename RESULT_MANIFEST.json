@@ -2,8 +2,1424 @@
   "schema_version": 1,
   "repository": "TPMC-RESULT",
   "result_only": true,
-  "generated_at": "2026-09-26T16:46:46.543206Z",
+  "generated_at": "2026-09-27T05:49:13.611128Z",
   "cases": [
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3572071
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3668365
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3488007
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3432359
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3426647
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3630802
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3645142
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3635196
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3632378
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3678040
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3500557
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3440843
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3431171
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3441589
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3640512
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3656372
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3645303
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p10_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p10_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3635965
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3592641
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3702163
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3562678
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3439918
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3430192
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3655482
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3651500
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3606457
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3662402
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3708331
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3590235
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3450865
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3439145
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3455952
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3663564
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3678110
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3617811
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p30_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p30_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3664270
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3590172
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3772706
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3636101
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3514438
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3447650
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3639146
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3644546
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3622664
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3743037
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3759138
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3643005
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3547802
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3450837
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3448402
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3658686
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3654771
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3636396
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p50_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p50_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3741881
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3574704
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3808561
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3679719
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3623107
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3587482
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3622012
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3633195
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3649040
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3816519
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3802350
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3692345
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3651623
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3616991
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3602128
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3639652
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3636473
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3649340
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p70_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p70_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3825149
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p90_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p90_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3754923
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p90_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p90_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 1,
+      "total_bytes": 2497
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p90_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p90_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3820064
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p90_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p90_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3819901
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p90_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p90_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3819758
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p90_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p90_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3816785
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p90_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p90_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3823091
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p90_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p90_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3823484
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p90_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p90_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3823126
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p90_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p90_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3829852
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p90_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p90_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3823197
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p90_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p90_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3826544
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p90_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p90_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3826473
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p90_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p90_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3826528
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_p90_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_p90_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3823376
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3581225
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3682518
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3491202
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3430613
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3421481
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3629026
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3638189
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3636879
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3626821
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3672049
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3498151
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3437391
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3431023
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3438999
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3636233
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3647698
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3649890
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm10_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm10_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3636525
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3591622
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3706850
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3590647
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3438280
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3428776
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3655721
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3660239
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3602894
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3656920
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3711999
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3568929
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3448551
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3436551
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3450044
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3657449
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3667594
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3614253
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm30_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm30_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3674127
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3591508
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3740592
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3642498
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3533018
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3441334
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3643876
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3643578
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3613927
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3725046
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3762634
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3636330
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3523402
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3452903
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3444918
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3647253
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3660245
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3627031
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm50_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm50_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3741020
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3584913
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3790210
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3693228
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3650026
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3617535
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3630062
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3625653
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3638518
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3812400
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3810833
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3674357
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3633925
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3601790
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3613852
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3634223
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3629393
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3651382
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm70_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm70_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3824984
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3756023
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3817975
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3818039
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3818003
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3824339
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3821148
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3821101
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3821228
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3817839
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3824622
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3824286
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3824603
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3830839
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3824613
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3827660
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3827727
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3827685
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h350_r0_pm90_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h350_r0_pm90_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3824347
+    },
     {
       "geometry_alias": "Av4_3244",
       "case_name": "20270301_h450_r0_p0_y0_TPMC_N400000_S101",
@@ -46,11 +1462,587 @@
     },
     {
       "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3587527
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3678955
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3485638
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3429825
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3422906
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3637985
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3641013
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3645821
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3642571
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3691267
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3511884
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3438405
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3432359
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3440768
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3639271
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3654569
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3653253
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p10_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p10_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3640143
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3593426
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3726903
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3568446
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3441412
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3429910
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3646741
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3659498
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3605669
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3671151
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3721401
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3591726
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3448160
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3439156
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3449839
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3661844
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3680567
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3613730
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p30_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p30_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3677169
+    },
+    {
+      "geometry_alias": "Av4_3244",
       "case_name": "20270301_h450_r0_p45_y0_TPMC_N400000_S101",
       "result_path": "results/Av4_3244/20270301_h450_r0_p45_y0_TPMC_N400000_S101",
       "status": "RESULTS_PRESENT",
       "file_count": 10,
       "total_bytes": 3585134
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3595349
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3774421
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3633363
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3521892
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3446569
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3635079
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3645619
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3621837
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3752644
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3767144
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3643624
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3546718
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3451029
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3449035
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3653572
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3657493
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3630401
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p50_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p50_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3749675
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3578195
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3816626
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3685003
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3627306
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3594951
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3621883
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3627231
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3647594
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3823033
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3814080
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3705686
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3661317
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3619747
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3604434
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3640687
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3630043
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3648817
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p70_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p70_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3825311
     },
     {
       "geometry_alias": "Av4_3244",
@@ -62,6 +2054,430 @@
     },
     {
       "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3820836
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3821077
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3820862
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3827219
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3824164
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3824272
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3824161
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3820895
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3827443
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3827730
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3827227
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3833891
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3827314
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3830572
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3830594
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3830648
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_p90_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_p90_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3827576
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3579400
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3687768
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3497918
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3428078
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3421007
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3630465
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3643059
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3639302
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3635523
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3681811
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3494739
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3436974
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3429557
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3438788
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3641637
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3651727
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3644220
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm10_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm10_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3639311
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3592226
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3725731
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3588263
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3440895
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3429963
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3654607
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3657998
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3603171
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3656090
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3724963
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3564979
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3444573
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3435013
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3449462
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3659622
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3660321
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3610988
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm30_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm30_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3670720
+    },
+    {
+      "geometry_alias": "Av4_3244",
       "case_name": "20270301_h450_r0_pm45_y0_TPMC_N400000_S101",
       "result_path": "results/Av4_3244/20270301_h450_r0_pm45_y0_TPMC_N400000_S101",
       "status": "RESULTS_PRESENT",
@@ -70,11 +2486,435 @@
     },
     {
       "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3583701
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3753703
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3647954
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3536394
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3436441
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3640470
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3644133
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3618256
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3731404
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3768622
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3637596
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3530946
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3448372
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3446704
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3647483
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3655945
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3631314
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm50_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm50_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3742234
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_y0_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_y0_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3575243
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3800137
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3696319
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3652934
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3612555
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3624667
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3617835
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3636848
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3804350
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3812066
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3684081
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3620293
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3596814
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3606193
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3637774
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3631412
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3657345
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm70_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm70_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3823579
+    },
+    {
+      "geometry_alias": "Av4_3244",
       "case_name": "20270301_h450_r0_pm90_y0_TPMC_N400000_S101",
       "result_path": "results/Av4_3244/20270301_h450_r0_pm90_y0_TPMC_N400000_S101",
       "status": "RESULTS_PRESENT",
       "file_count": 10,
       "total_bytes": 3756537
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_y100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_y100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3824253
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_y120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_y120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3824246
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_y140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_y140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3824099
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_y160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_y160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3831037
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_y20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_y20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3827495
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_y40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_y40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3827475
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_y60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_y60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3827397
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_y80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_y80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3824377
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_ym100_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_ym100_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3830549
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_ym120_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_ym120_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3830630
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_ym140_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_ym140_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3830717
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_ym160_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_ym160_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3837350
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_ym180_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_ym180_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3830509
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_ym20_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_ym20_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3834107
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_ym40_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_ym40_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3833956
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_ym60_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_ym60_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3833990
+    },
+    {
+      "geometry_alias": "Av4_3244",
+      "case_name": "20270301_h450_r0_pm90_ym80_TPMC_N400000_S101",
+      "result_path": "results/Av4_3244/20270301_h450_r0_pm90_ym80_TPMC_N400000_S101",
+      "status": "RESULTS_PRESENT",
+      "file_count": 10,
+      "total_bytes": 3830693
     }
   ]
 }
