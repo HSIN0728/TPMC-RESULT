@@ -5,9 +5,9 @@
     "yaw_deg": 45.0
   },
   "batch": {
-    "case_count": 4,
+    "case_count": 1,
     "mode": "attitude_dataset",
-    "sequence": 4,
+    "sequence": 1,
     "sweep_axis": null
   },
   "case_name": "20270301_h250_r0_p45_y45_TPMC_N400000_S101",
@@ -116,8 +116,8 @@
     "temperature_K": 857.133056640625,
     "velocity_m_s": [
       -3800.000000000001,
-      3800.000000000001,
-      -5374.011537017762
+      5374.011537017762,
+      -3800.000000000001
     ]
   },
   "geometry": {

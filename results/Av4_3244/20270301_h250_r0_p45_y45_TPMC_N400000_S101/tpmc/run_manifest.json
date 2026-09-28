@@ -10,7 +10,21 @@
     "roll_deg": 0.0,
     "yaw_deg": 45.0
   },
-  "case_config_at_run_sha256": "bb0167b4f25b198bd238ec278899b1ee72b44ed931697759b41ef94f55aff43e",
+  "attitude_convention": {
+    "body_to_reference": "Rz(yaw) @ Ry(pitch) @ Rx(roll)",
+    "freestream_reference_m_s": [
+      -7600.0,
+      0.0,
+      0.0
+    ],
+    "reference_to_body": "Rx(-roll) @ Ry(-pitch) @ Rz(-yaw)",
+    "resulting_v_body_m_s": [
+      -3800.000000000001,
+      5374.011537017762,
+      -3800.000000000001
+    ]
+  },
+  "case_config_at_run_sha256": "59a60dc383c62b5f2d366263572834e1b45c8928dff0048e322a5d11ca081a16",
   "case_config_at_run_snapshot": {
     "attitude": {
       "pitch_deg": 45.0,
@@ -18,9 +32,9 @@
       "yaw_deg": 45.0
     },
     "batch": {
-      "case_count": 4,
+      "case_count": 1,
       "mode": "attitude_dataset",
-      "sequence": 4,
+      "sequence": 1,
       "sweep_axis": null
     },
     "case_name": "20270301_h250_r0_p45_y45_TPMC_N400000_S101",
@@ -129,8 +143,8 @@
       "temperature_K": 857.133056640625,
       "velocity_m_s": [
         -3800.000000000001,
-        3800.000000000001,
-        -5374.011537017762
+        5374.011537017762,
+        -3800.000000000001
       ]
     },
     "geometry": {
@@ -287,8 +301,8 @@
     "temperature_K": 857.133056640625,
     "velocity_m_s": [
       -3800.000000000001,
-      3800.000000000001,
-      -5374.011537017762
+      5374.011537017762,
+      -3800.000000000001
     ]
   },
   "geometry_alias": "Av4_3244",
@@ -321,14 +335,20 @@
   "output_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h250_r0_p45_y45_TPMC_N400000_S101\\output\\tpmc",
   "particle_count": 400000,
   "random_seed": 101,
+  "reference_quantities": {
+    "A_ref_m2": 1.0,
+    "L_ref_definition": "deployed 1 m x 1 m drag sail diagonal",
+    "L_ref_m": 1.41,
+    "attitude_invariant": true
+  },
   "scale_factor": 1.0,
   "solver_mode": "tpmc",
   "solver_output_schema": "TPMC-run-summary-2.1-sparta-wind-axis",
   "solver_source_sha256": {
-    "TPMC/main.py": "d6e90efe01a40b97f512c555c939a3f41a31f19fb4bbc26f126a5fc6f06bf1f8",
+    "TPMC/main.py": "7a3ca2854693d457fb35a8fdd83f8fba047cb141adab108cfbe16090ee237518",
     "TPMC/physics/reference.py": "c70a140da1857a607af6f6908f5d33dfb679ce068fc09601e1e2174c6a1097c9",
     "TPMC/tpmc_v2/solver_adapter.py": "75304c0d59f15d858ec017d542e60326e2f1a026bf80106a1a76f0b0d35bbd6e",
-    "runners/run_tpmc_case.py": "08aade3b83926f5ae072fe746d0eb7804e9eda54ed6911c382e212d8fc114ece"
+    "runners/run_tpmc_case.py": "eb85ad9fda5458c0b64dcc2df6f42ff24f68a623d275763a4ecf0ce0c8bc03fc"
   },
   "source_geometry_authority": "D:\\TPMC\\SATELLA_NEW_GEOMETRY\\candidates\\satella-v3-adcs-curvature-A-v4\\mapped.stl",
   "surface_model": {
@@ -340,7 +360,7 @@
     "sparta_equivalent": "surf_collide satwall diffuse 300 1",
     "wall_temperature_K": 300.0
   },
-  "timestamp": "2026-09-28T09:29:47.584715+00:00",
+  "timestamp": "2026-09-28T10:47:24.069779+00:00",
   "tpmc_repository_path": "D:\\TPMC\\tpmc-sat-aero-gnn-snapshot",
   "triangle_output": "AUTHORITY_GATED_NOT_GENERATED"
 }

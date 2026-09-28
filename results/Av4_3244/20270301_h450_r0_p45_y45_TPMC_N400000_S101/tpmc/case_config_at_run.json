@@ -22,7 +22,7 @@
       },
       "ap_source": "agi_cssi_monthly_ap",
       "atmosphere_mode": "forecast",
-      "data_retrieval": "updated",
+      "data_retrieval": "cache",
       "datetime_utc": "2027-03-01T00:00:00Z",
       "fractions": {
         "Ar": 1.9151938871881806e-07,
@@ -56,7 +56,7 @@
         "f107_data_type": "PRM",
         "f107a": 126.0
       },
-      "space_weather_retrieved_at_utc": "2026-09-28T09:15:43.166714+00:00",
+      "space_weather_retrieved_at_utc": "2026-09-28T09:15:43.168715+00:00",
       "space_weather_source": "AGI/CSSI SpaceWeather-All-v1.2.txt",
       "space_weather_source_dates": {
         "ap": "2027-03-01",
@@ -116,8 +116,8 @@
     "temperature_K": 870.8862915039062,
     "velocity_m_s": [
       -3800.000000000001,
-      3800.000000000001,
-      -5374.011537017762
+      5374.011537017762,
+      -3800.000000000001
     ]
   },
   "geometry": {
