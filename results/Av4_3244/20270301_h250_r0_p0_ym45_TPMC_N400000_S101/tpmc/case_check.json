@@ -1,0 +1,62 @@
+{
+  "altitude_km": 250.0,
+  "attitude": {
+    "pitch_deg": 0.0,
+    "roll_deg": 0.0,
+    "yaw_deg": -45.0
+  },
+  "case_name": "20270301_h250_r0_p0_ym45_TPMC_N400000_S101",
+  "case_path": "D:\\TPMC\\data_pc_b_v2\\cases\\Av4_3244\\20270301_h250_r0_p0_ym45_TPMC_N400000_S101",
+  "checks": {
+    "aerodynamic_reference": "PASS",
+    "attitude_velocity": "PASS",
+    "config": "PASS",
+    "config_schema": "PASS",
+    "geometry_id": "PASS",
+    "geometry_path": "PASS",
+    "geometry_sha256": "PASS",
+    "gnn_dataset_export": "DISABLED",
+    "library_sha256": "PASS",
+    "library_triangle_count": "PASS",
+    "output_path": "PASS",
+    "parent_geometry_alias": "PASS",
+    "scale_factor": "PASS",
+    "surface_config": "PASS",
+    "surface_mapping_authority": "PASS",
+    "tpmc_dependency": "PASS",
+    "triangle_count": "PASS",
+    "units": "PASS"
+  },
+  "coordinate_convention": {
+    "+X": "flight direction",
+    "+Y": "right-hand rule",
+    "+Z": "nadir / Earth center"
+  },
+  "errors": [],
+  "geometry_alias": "Av4_3244",
+  "geometry_id": "satella-v3-adcs-curvature-A-v4",
+  "gnn_dataset_export": {
+    "reason": "gnn_dataset_export_disabled",
+    "status": "DISABLED"
+  },
+  "scale_factor": 1.0,
+  "status": "PASS",
+  "surface_config": {
+    "accommodation": 1.0,
+    "model": "diffuse",
+    "profile": "sparta_v4_uniform_diffuse",
+    "reference": "SPARTA v4 surf_collide diffuse T acc",
+    "scope": "all_components",
+    "wall_temperature_K": 300.0
+  },
+  "surface_mapping": {
+    "authority": "canonical_semantic_map",
+    "legacy_face_surface_map": "mapping/stl_facet_semantic_map.jsonl",
+    "legacy_map_ignored": true,
+    "path": "D:\\TPMC\\data_pc_b_v2\\geometry\\Av4_3244\\mapping\\stl_facet_semantic_map.jsonl",
+    "sha256": "9a76adc23b34bebb80449513d8ac53b3ad45cd20577db7e264b22f73bb7871d3",
+    "status": "PASS"
+  },
+  "triangle_count": 3244,
+  "units": "m"
+}
