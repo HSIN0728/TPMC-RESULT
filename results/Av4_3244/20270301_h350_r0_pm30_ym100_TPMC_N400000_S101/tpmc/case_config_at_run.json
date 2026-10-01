@@ -56,7 +56,7 @@
         "f107_data_type": "PRM",
         "f107a": 126.0
       },
-      "space_weather_retrieved_at_utc": "2026-09-26T16:16:02.149687+00:00",
+      "space_weather_retrieved_at_utc": "2026-09-28T17:01:09.020701+00:00",
       "space_weather_source": "AGI/CSSI SpaceWeather-All-v1.2.txt",
       "space_weather_source_dates": {
         "ap": "2027-03-01",
@@ -78,7 +78,7 @@
         "f107": "PRM_MONTHLY",
         "f107a": "PRM_MONTHLY"
       },
-      "space_weather_source_updated": "2026 Sep 26 15:40:00.00",
+      "space_weather_source_updated": "2026 Sep 28 15:40:00.00",
       "space_weather_source_url": "https://ftp.agi.com/pub/DynamicEarthData/SpaceWeather-All-v1.2.txt",
       "space_weather_status": "forecast",
       "space_weather_status_detail": "\u4f7f\u7528 AGI/CSSI MONTHLY_PREDICTED \u5217\u4e2d\u7684 F10.7\u3001F10.7a \u8207 Ap Avg\u3002",
@@ -116,8 +116,8 @@
     "temperature_K": 870.0075073242188,
     "velocity_m_s": [
       1142.916372171308,
-      -6481.800842838569,
-      3799.9999999999995
+      -7484.538922892781,
+      -659.8630751343351
     ]
   },
   "geometry": {
@@ -151,7 +151,7 @@
     "L_ref": 1.41,
     "density_normalization_authority": "native_atmosphere",
     "intersection_backend": "bvh",
-    "n_workers": 10,
+    "n_workers": 12,
     "particle_count": 400000,
     "random_seed": 101,
     "solver_mode": "tpmc"

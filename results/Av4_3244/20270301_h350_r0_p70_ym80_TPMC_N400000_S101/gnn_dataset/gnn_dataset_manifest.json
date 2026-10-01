@@ -10,7 +10,7 @@
     70.0,
     -80.0
   ],
-  "case_id": "5095e502d7c06d63",
+  "case_id": "e5ed2eaa8d724205",
   "case_name": "20270301_h350_r0_p70_ym80_TPMC_N400000_S101",
   "dataset_type": "force_only_gnn_training_sample",
   "density_kg_m3": 6.806482586966302e-12,
@@ -31,9 +31,9 @@
     "freestream_vz"
   ],
   "freestream_velocity_m_s": [
-    -451.3729270655241,
-    -2559.863075134336,
-    -7141.663917972904
+    -451.37292706552404,
+    -7484.538922892781,
+    -1240.136924865665
   ],
   "geometry_alias": "Av4_3244",
   "geometry_id": "satella-v3-adcs-curvature-A-v4",
@@ -44,7 +44,7 @@
   "schema_version": 1,
   "semantic_map_sha256": "9a76adc23b34bebb80449513d8ac53b3ad45cd20577db7e264b22f73bb7871d3",
   "source_raw_triangle_labels": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h350_r0_p70_ym80_TPMC_N400000_S101\\output\\gnn_dataset\\triangle_labels.jsonl",
-  "source_raw_triangle_sha256": "94c9a5d54902a5b89dc1bc6d3430e9e420bc99eed8784091d32bab036a833124",
+  "source_raw_triangle_sha256": "9573f44639a735fb79f12e5b2bf60d1e80bd2283b0a9946a337e1927ee364890",
   "status": "PASS",
   "target_order": [
     "Fx",
@@ -55,5 +55,5 @@
   "training_run": false,
   "triangle_count": 3244,
   "triangle_labels_csv": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h350_r0_p70_ym80_TPMC_N400000_S101\\output\\gnn_dataset\\triangle_labels.csv",
-  "triangle_labels_csv_sha256": "b5fa78ab8e149f1596bea050a2cc2cf59b933acc10c3fbce199f94c833c783ed"
+  "triangle_labels_csv_sha256": "501366b106ccc5e401d460f921ddfbf70ee4b4391d105e126c05d7861947cc1b"
 }
