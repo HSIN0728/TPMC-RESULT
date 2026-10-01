@@ -10,7 +10,21 @@
     "roll_deg": 0.0,
     "yaw_deg": -180.0
   },
-  "case_config_at_run_sha256": "c81470fe0d1f22b4b2ff801dcdf01d1ff888daaa20ee84119af8ff91d99bc192",
+  "attitude_convention": {
+    "body_to_reference": "Rz(yaw) @ Ry(pitch) @ Rx(roll)",
+    "freestream_reference_m_s": [
+      -7600.0,
+      0.0,
+      0.0
+    ],
+    "reference_to_body": "Rx(-roll) @ Ry(-pitch) @ Rz(-yaw)",
+    "resulting_v_body_m_s": [
+      4885.185833617699,
+      -9.307315673519883e-13,
+      5821.937767704233
+    ]
+  },
+  "case_config_at_run_sha256": "797527785b45e0de5c95b794e1f207addfeef1cee05070b6cc5e0b44883a9e1d",
   "case_config_at_run_snapshot": {
     "attitude": {
       "pitch_deg": 50.0,
@@ -69,7 +83,7 @@
           "f107_data_type": "PRM",
           "f107a": 126.0
         },
-        "space_weather_retrieved_at_utc": "2026-09-26T16:16:02.149687+00:00",
+        "space_weather_retrieved_at_utc": "2026-09-28T17:01:09.020701+00:00",
         "space_weather_source": "AGI/CSSI SpaceWeather-All-v1.2.txt",
         "space_weather_source_dates": {
           "ap": "2027-03-01",
@@ -91,7 +105,7 @@
           "f107": "PRM_MONTHLY",
           "f107a": "PRM_MONTHLY"
         },
-        "space_weather_source_updated": "2026 Sep 26 15:40:00.00",
+        "space_weather_source_updated": "2026 Sep 28 15:40:00.00",
         "space_weather_source_url": "https://ftp.agi.com/pub/DynamicEarthData/SpaceWeather-All-v1.2.txt",
         "space_weather_status": "forecast",
         "space_weather_status_detail": "\u4f7f\u7528 AGI/CSSI MONTHLY_PREDICTED \u5217\u4e2d\u7684 F10.7\u3001F10.7a \u8207 Ap Avg\u3002",
@@ -129,8 +143,8 @@
       "temperature_K": 870.0075073242188,
       "velocity_m_s": [
         4885.185833617699,
-        -5.98262719437991e-13,
-        -5821.937767704233
+        -9.307315673519883e-13,
+        5821.937767704233
       ]
     },
     "geometry": {
@@ -164,7 +178,7 @@
       "L_ref": 1.41,
       "density_normalization_authority": "native_atmosphere",
       "intersection_backend": "bvh",
-      "n_workers": 10,
+      "n_workers": 12,
       "particle_count": 400000,
       "random_seed": 101,
       "solver_mode": "tpmc"
@@ -227,7 +241,7 @@
         "f107_data_type": "PRM",
         "f107a": 126.0
       },
-      "space_weather_retrieved_at_utc": "2026-09-26T16:16:02.149687+00:00",
+      "space_weather_retrieved_at_utc": "2026-09-28T17:01:09.020701+00:00",
       "space_weather_source": "AGI/CSSI SpaceWeather-All-v1.2.txt",
       "space_weather_source_dates": {
         "ap": "2027-03-01",
@@ -249,7 +263,7 @@
         "f107": "PRM_MONTHLY",
         "f107a": "PRM_MONTHLY"
       },
-      "space_weather_source_updated": "2026 Sep 26 15:40:00.00",
+      "space_weather_source_updated": "2026 Sep 28 15:40:00.00",
       "space_weather_source_url": "https://ftp.agi.com/pub/DynamicEarthData/SpaceWeather-All-v1.2.txt",
       "space_weather_status": "forecast",
       "space_weather_status_detail": "\u4f7f\u7528 AGI/CSSI MONTHLY_PREDICTED \u5217\u4e2d\u7684 F10.7\u3001F10.7a \u8207 Ap Avg\u3002",
@@ -287,8 +301,8 @@
     "temperature_K": 870.0075073242188,
     "velocity_m_s": [
       4885.185833617699,
-      -5.98262719437991e-13,
-      -5821.937767704233
+      -9.307315673519883e-13,
+      5821.937767704233
     ]
   },
   "geometry_alias": "Av4_3244",
@@ -296,6 +310,8 @@
   "geometry_sha256": "94735a1dcf4a533fcecc90e1ee6ae9a10b83329fcf37a356e3a4939d8eafb9a4",
   "geometry_triangle_count": 3244,
   "geometry_units": "m",
+  "git_provenance_capture": "before_simulation",
+  "git_provenance_captured_at": "2026-09-29T14:57:05.716169+00:00",
   "git_sha": "e999b9abb4e974688956cc3924946ec06051b03f",
   "git_worktree_dirty": true,
   "gnn_dataset_export": {
@@ -321,14 +337,25 @@
   "output_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h350_r0_p50_ym180_TPMC_N400000_S101\\output\\tpmc",
   "particle_count": 400000,
   "random_seed": 101,
+  "reference_quantities": {
+    "A_ref_m2": 1.0,
+    "L_ref_definition": "deployed 1 m x 1 m drag sail diagonal",
+    "L_ref_m": 1.41,
+    "attitude_invariant": true
+  },
   "scale_factor": 1.0,
   "solver_mode": "tpmc",
   "solver_output_schema": "TPMC-run-summary-2.1-sparta-wind-axis",
   "solver_source_sha256": {
-    "TPMC/main.py": "d6e90efe01a40b97f512c555c939a3f41a31f19fb4bbc26f126a5fc6f06bf1f8",
+    "TPMC/aerodynamic_reference.py": "e52acc980922beffbd651395a35e8bf7a0300aa91c5b053de2d142aba6f9612f",
+    "TPMC/attitude.py": "bc7d05cebb8c4d117681a5da2cf4a2eec26972a8163f0451d3b1cae0bc710ef1",
+    "TPMC/flow_conventions.py": "a783a6f045581d849da7e051060441149b1fd6beb289764f6222e67b2e453fa0",
+    "TPMC/main.py": "7a3ca2854693d457fb35a8fdd83f8fba047cb141adab108cfbe16090ee237518",
     "TPMC/physics/reference.py": "c70a140da1857a607af6f6908f5d33dfb679ce068fc09601e1e2174c6a1097c9",
+    "TPMC/physics/surface_model.py": "a5d4fc675ff21ad238ef0a9bb205b73efce19c335d0d98b223faf69adec5e9b9",
+    "TPMC/physics/tracer.py": "c39fa7c7778cdcf5e7b834aeea2792e2bf17f0ee6ee85a7e3d4b08cd73259724",
     "TPMC/tpmc_v2/solver_adapter.py": "75304c0d59f15d858ec017d542e60326e2f1a026bf80106a1a76f0b0d35bbd6e",
-    "runners/run_tpmc_case.py": "08aade3b83926f5ae072fe746d0eb7804e9eda54ed6911c382e212d8fc114ece"
+    "runners/run_tpmc_case.py": "685872e5d5af0b0cec14bc0fec328cf5e2c714b9d1a92e9c0b0e121dfb612d64"
   },
   "source_geometry_authority": "D:\\TPMC\\SATELLA_NEW_GEOMETRY\\candidates\\satella-v3-adcs-curvature-A-v4\\mapped.stl",
   "surface_model": {
@@ -340,7 +367,7 @@
     "sparta_equivalent": "surf_collide satwall diffuse 300 1",
     "wall_temperature_K": 300.0
   },
-  "timestamp": "2026-09-27T04:18:18.638413+00:00",
+  "timestamp": "2026-09-29T14:59:31.191184+00:00",
   "tpmc_repository_path": "D:\\TPMC\\tpmc-sat-aero-gnn-snapshot",
   "triangle_output": "AUTHORITY_GATED_NOT_GENERATED"
 }
