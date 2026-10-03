@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "result_only": true,
+  "geometry_alias": "Av4_3244",
+  "case_name": "20270301_h450_a100_b080_TPMC_N400000_S101",
+  "source_case_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h450_a100_b080_TPMC_N400000_S101",
+  "files": [
+    {
+      "relative_path": "results/Av4_3244/20270301_h450_a100_b080_TPMC_N400000_S101/gnn_dataset/gnn_dataset_manifest.json",
+      "sha256": "67be6c64194d7d97ddbd82c7d795d7dd5bced9f092838a0aa7f52713f9f721b6",
+      "bytes": 1817
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h450_a100_b080_TPMC_N400000_S101/gnn_dataset/sample_manifest.json",
+      "sha256": "67be6c64194d7d97ddbd82c7d795d7dd5bced9f092838a0aa7f52713f9f721b6",
+      "bytes": 1817
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h450_a100_b080_TPMC_N400000_S101/gnn_dataset/triangle_dataset_manifest.json",
+      "sha256": "fe97a4948f657f42a4a8b5c521028884f8025d20ae9afd61e2dd3821c2e74424",
+      "bytes": 11642
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h450_a100_b080_TPMC_N400000_S101/gnn_dataset/triangle_labels.csv",
+      "sha256": "2475ec480fd58029235e4beba3ef64b616bfb40ad70010f78fa8435cb764c43e",
+      "bytes": 1428602
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h450_a100_b080_TPMC_N400000_S101/gnn_dataset/triangle_labels.jsonl",
+      "sha256": "f4dd101ed36c6b7d3db7685fa8fc1b6fb2ce76e671c9fdacb1b4cc44740047b9",
+      "bytes": 2228544
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h450_a100_b080_TPMC_N400000_S101/tpmc/case_check.json",
+      "sha256": "0a9e804f4c158b80bcda63179df91fde277b373b96453bc13b56c72d4fccfd19",
+      "bytes": 3099
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h450_a100_b080_TPMC_N400000_S101/tpmc/case_config_at_run.json",
+      "sha256": "e17325d26bab858f8a2b6cb4061bdb096c3aed239a64ac04ae934291e540a2bc",
+      "bytes": 5336
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h450_a100_b080_TPMC_N400000_S101/tpmc/force_moment.json",
+      "sha256": "fd1fbe183c67a36a7b26cf57efc72cc65534fc7c978300083cceba587b856207",
+      "bytes": 462
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h450_a100_b080_TPMC_N400000_S101/tpmc/run_manifest.json",
+      "sha256": "8802cefc1940ac50d29dff605dfbf378197387d3527d512ba3210516f9107887",
+      "bytes": 14706
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h450_a100_b080_TPMC_N400000_S101/tpmc/run_summary.json",
+      "sha256": "d7d32fdf0532ad77891827067b6c94bcbfa591d5020eced34ca2039154866c6c",
+      "bytes": 3455
+    }
+  ]
+}
