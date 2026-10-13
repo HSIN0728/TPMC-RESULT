@@ -1,0 +1,124 @@
+{
+  "resolved": {
+    "formal_case_id": "20270301_h450_a140_b220_TPMC_N1600000_S101",
+    "direction_id": "a140_b220",
+    "alpha_deg": 140.0,
+    "beta_deg": 220.0,
+    "Vhat_body": [
+      0.7660444431189779,
+      -0.4924038765061041,
+      -0.41317591116653485
+    ],
+    "split": "train",
+    "approved_output_path": "D:\\TPMC\\data\\sensitivity\\TPMC_S2_166_N1600K_FORMAL_PRODUCTION_V2_PREFLIGHT\\output\\s2_166\\20270301_h450_a140_b220_TPMC_N1600000_S101",
+    "N": 1600000,
+    "seed": 101,
+    "workers": 8,
+    "backend": "bvh",
+    "geometry_id": "satella-v3-adcs-curvature-A-v4",
+    "stl_sha256": "94735a1dcf4a533fcecc90e1ee6ae9a10b83329fcf37a356e3a4939d8eafb9a4",
+    "solver_mapping_sha256": "18774514432aa704779acfbb65172bed5b8445587a13f05b97b69797a370eea5",
+    "environment_id": "particle_count_high_n_extension_450km",
+    "policy_id": "TPMC_FORMAL_PRODUCTION_V2_N1600K",
+    "matrix": "D:\\TPMC\\data\\sensitivity\\TPMC_S2_166_SPLIT_AUTHORITY_AMENDMENT_AND_PREFLIGHT_RECHECK_V2\\cases\\s2_166_case_matrix_v2.csv",
+    "manifest": "D:\\TPMC\\data\\sensitivity\\TPMC_FORMAL_V2_INDEPENDENT_N1600K_REFERENCE_AND_FINAL_RESEAL_V1\\launch_packet_final\\production_launch_manifest.json"
+  },
+  "case_payload": {
+    "name": "20270301_h450_a140_b220_TPMC_N1600000_S101",
+    "stl_path": "D:\\TPMC\\data\\geometry\\Av4_3244\\source\\satellite.stl",
+    "atmosphere_config": {
+      "type": "manual",
+      "rho_total_kg_m3": 9.666236668507518e-13,
+      "temperature_K": 868.8775634765625,
+      "exospheric_temperature_K": 868.8775634765625,
+      "lat_deg": 23.0,
+      "lon_deg": 120.2,
+      "species_number_density_m3": {
+        "Ar": 7572097.5,
+        "H": 135295746048.0,
+        "He": 5314124447744.0,
+        "N": 564753989632.0,
+        "N2": 316935340032.0,
+        "NO": 154667264.0,
+        "O": 33976680972288.0,
+        "O2": 7947028992.0
+      },
+      "species_molecular_mass_kg": {
+        "Ar": 6.63e-26,
+        "H": 1.67e-27,
+        "He": 6.65e-27,
+        "N": 2.325e-26,
+        "N2": 4.65e-26,
+        "NO": 4.985e-26,
+        "O": 2.657e-26,
+        "O2": 5.312e-26
+      },
+      "species_density_authority": "case_config",
+      "species_density_source": "D:\\TPMC\\data\\sensitivity\\TPMC_PARTICLE_COUNT_HIGH_N_EXTENSION_V1\\Av4_3244\\a000_b000_N1600k_s101\\input\\case_config.json",
+      "species_mass_authority": "explicit_case_override",
+      "species_mass_source": "D:\\TPMC\\data\\sensitivity\\TPMC_PARTICLE_COUNT_HIGH_N_EXTENSION_V1\\Av4_3244\\a000_b000_N1600k_s101\\input\\case_config.json",
+      "strict_species_masses": true
+    },
+    "target_alt_km": 450.0,
+    "target_lat_deg": 23.0,
+    "target_lon_deg": 120.2,
+    "epoch": "2027-03-01T00:00:00Z",
+    "scale_factor": 1.0,
+    "yaw_deg": 0.0,
+    "pitch_deg": 0.0,
+    "roll_deg": 0.0,
+    "attitude_representation": "body_frame_incidence_direction",
+    "freestream_speed_m_s": 7600.0,
+    "incidence_alpha_deg": 140.0,
+    "incidence_beta_deg": 220.0,
+    "runtime_geometry_rotation_deg": null,
+    "runtime_geometry_translation_m": null,
+    "solver_mode": "tpmc",
+    "face_map_csv": "D:\\TPMC\\data\\sensitivity\\TPMC_MAPPING_SCHEMA_COMPATIBILITY_V1\\derived_mappings\\M2\\surface_mapping_solver_compatible.csv",
+    "surface_config": {
+      "model": "diffuse",
+      "wall_temperature_K": 300.0,
+      "accommodation": 1.0,
+      "profile": "sparta_v4_uniform_diffuse",
+      "scope": "all_components"
+    },
+    "A_ref": 1.0,
+    "L_ref": 1.41,
+    "ref_point_body": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "drag_axis_body": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "side_axis_body": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "lift_axis_body": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "bulk_velocity_world": [
+      5821.937767704232,
+      -3742.2694614463912,
+      -3140.1369248656647
+    ],
+    "density_normalization_authority": "native_atmosphere",
+    "required_geometry_face_count": 3244,
+    "n_particles": 1600000,
+    "n_workers": 8,
+    "seed": 101,
+    "tags": [
+      "TPMC_FORMAL_PRODUCTION_V2_N1600K"
+    ]
+  },
+  "requested_output_path": "D:\\TPMC\\data\\sensitivity\\TPMC_S2_166_N1600K_FORMAL_PRODUCTION_V2_PREFLIGHT\\output\\s2_166\\20270301_h450_a140_b220_TPMC_N1600000_S101",
+  "actual_output_path": "D:\\TPMC\\data\\sensitivity\\TPMC_S2_166_N1600K_FORMAL_PRODUCTION_V2_PREFLIGHT\\output\\s2_166\\20270301_h450_a140_b220_TPMC_N1600000_S101",
+  "adapter": "D:\\TPMC\\data\\sensitivity\\TPMC_FORMAL_V2_INDEPENDENT_N1600K_REFERENCE_AND_FINAL_RESEAL_V1\\launch_packet_final\\run_formal_v2_bulk_direction_adapter.py"
+}

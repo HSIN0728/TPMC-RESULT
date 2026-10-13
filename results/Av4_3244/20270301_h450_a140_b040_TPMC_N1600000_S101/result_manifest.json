@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "result_only": true,
+  "geometry_alias": "Av4_3244",
+  "case_name": "20270301_h450_a140_b040_TPMC_N1600000_S101",
+  "frozen_dataset_id": "SATELLA_TPMC_S2_166_AV4_3244_H450_N1600K_S101_FORMAL_V2_FREEZE_V1",
+  "frozen_manifest_sha256": "d8ca55734304822848e65f5353d3ee6fe3ae37168abb231f5cfd9915f9592978",
+  "dataset_content_sha256": "12bc1d901312657f9af97312a544a86d890b6e90d4b296ef7e47269860cbe43b",
+  "files": [
+    {
+      "relative_path": "results/Av4_3244/20270301_h450_a140_b040_TPMC_N1600000_S101/tpmc/case_check.json",
+      "sha256": "fb1c9fd3bf162bfd959418449d34ac15816329b8d3077dc7c0c413ce6e770d69",
+      "bytes": 2731
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h450_a140_b040_TPMC_N1600000_S101/tpmc/completion.json",
+      "sha256": "6d99449847914641e71c888b38b0e9130b9a6befc9d39f821da51ae11aea30f3",
+      "bytes": 382
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h450_a140_b040_TPMC_N1600000_S101/tpmc/effective_config.json",
+      "sha256": "2d13de0ee10a8f143a4c91fa79b3e5a2df5d5bd06370e3f93c2ed026594828f1",
+      "bytes": 4684
+    },
+    {
+      "relative_path": "results/Av4_3244/20270301_h450_a140_b040_TPMC_N1600000_S101/tpmc/run_summary.json",
+      "sha256": "4a65b2d0d39623bf3a6317e0d148513c193f72c16d911be969efd1c8bea2cf9e",
+      "bytes": 11547
+    }
+  ]
+}

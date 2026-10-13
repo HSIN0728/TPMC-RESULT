@@ -1,0 +1,69 @@
+{
+  "resolved": {
+    "formal_case_id": "20270301_h450_a120_b180_TPMC_N1600000_S101",
+    "direction_id": "a120_b180",
+    "alpha_deg": 120.0,
+    "beta_deg": 180.0,
+    "Vhat_body": [
+      0.4999999999999998,
+      -0.8660254037844387,
+      1.0605752387249069e-16
+    ],
+    "split": "heldout",
+    "approved_output_path": "D:\\TPMC\\data\\sensitivity\\TPMC_S2_166_N1600K_FORMAL_PRODUCTION_V2_PREFLIGHT\\output\\s2_166\\20270301_h450_a120_b180_TPMC_N1600000_S101",
+    "N": 1600000,
+    "seed": 101,
+    "workers": 8,
+    "backend": "bvh",
+    "geometry_id": "satella-v3-adcs-curvature-A-v4",
+    "stl_sha256": "94735a1dcf4a533fcecc90e1ee6ae9a10b83329fcf37a356e3a4939d8eafb9a4",
+    "solver_mapping_sha256": "18774514432aa704779acfbb65172bed5b8445587a13f05b97b69797a370eea5",
+    "environment_id": "particle_count_high_n_extension_450km",
+    "policy_id": "TPMC_FORMAL_PRODUCTION_V2_N1600K",
+    "matrix": "D:\\TPMC\\data\\sensitivity\\TPMC_S2_166_SPLIT_AUTHORITY_AMENDMENT_AND_PREFLIGHT_RECHECK_V2\\cases\\s2_166_case_matrix_v2.csv",
+    "manifest": "D:\\TPMC\\data\\sensitivity\\TPMC_FORMAL_V2_INDEPENDENT_N1600K_REFERENCE_AND_FINAL_RESEAL_V1\\launch_packet_final\\production_launch_manifest.json"
+  },
+  "config": {
+    "policy_id": "TPMC_FORMAL_PRODUCTION_V2_N1600K",
+    "policy_version": "V2_N1600K",
+    "geometry_id": "satella-v3-adcs-curvature-A-v4",
+    "geometry_alias": "Av4_3244",
+    "stl_sha256": "94735a1dcf4a533fcecc90e1ee6ae9a10b83329fcf37a356e3a4939d8eafb9a4",
+    "mapping_sha256": "18774514432aa704779acfbb65172bed5b8445587a13f05b97b69797a370eea5",
+    "particle_count": 1600000,
+    "seed": 101,
+    "workers": 8,
+    "backend": "bvh",
+    "altitude_km": 450.0,
+    "A_ref_m2": 1.0,
+    "L_ref_m": 1.41,
+    "surface": {
+      "model": "diffuse",
+      "wall_temperature_K": 300.0,
+      "accommodation": 1.0,
+      "profile": "sparta_v4_uniform_diffuse",
+      "scope": "all_components"
+    },
+    "CG_body": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "direction_id": "a120_b180",
+    "alpha_deg": 120.0,
+    "beta_deg": 180.0,
+    "V_body": [
+      0.4999999999999998,
+      -0.8660254037844387,
+      1.0605752387249069e-16
+    ],
+    "environment_id": "particle_count_high_n_extension_450km",
+    "environment_path": "D:\\TPMC\\data\\sensitivity\\TPMC_PARTICLE_COUNT_HIGH_N_EXTENSION_V1\\Av4_3244\\a000_b000_N1600k_s101\\input\\case_config.json",
+    "output_root": "D:\\TPMC\\data\\sensitivity\\TPMC_S2_166_N1600K_FORMAL_PRODUCTION_V2_PREFLIGHT\\output\\s2_166\\20270301_h450_a120_b180_TPMC_N1600000_S101",
+    "formal_case_id": "20270301_h450_a120_b180_TPMC_N1600000_S101"
+  },
+  "policy_check": {
+    "status": "PASS",
+    "errors": []
+  }
+}
