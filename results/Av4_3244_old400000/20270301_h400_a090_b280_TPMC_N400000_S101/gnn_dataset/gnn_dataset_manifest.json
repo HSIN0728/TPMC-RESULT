@@ -1,0 +1,59 @@
+{
+  "CG": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "altitude_km": 400.0,
+  "attitude_deg": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "case_id": "eb3de34ce428883b",
+  "case_name": "20270301_h400_a090_b280_TPMC_N400000_S101",
+  "dataset_type": "force_only_gnn_training_sample",
+  "density_kg_m3": 2.49575949618991e-12,
+  "exporter": "runners/gnn_dataset_export.py",
+  "feature_order": [
+    "centroid_x",
+    "centroid_y",
+    "centroid_z",
+    "normal_x",
+    "normal_y",
+    "normal_z",
+    "area",
+    "component_body",
+    "component_sailWall",
+    "component_solar",
+    "freestream_vx",
+    "freestream_vy",
+    "freestream_vz"
+  ],
+  "freestream_velocity_m_s": [
+    0.0,
+    1319.7261502686679,
+    -7484.538922892782
+  ],
+  "geometry_alias": "Av4_3244",
+  "geometry_id": "satella-v3-adcs-curvature-A-v4",
+  "geometry_sha256": "94735a1dcf4a533fcecc90e1ee6ae9a10b83329fcf37a356e3a4939d8eafb9a4",
+  "inference_run": false,
+  "particle_count": 400000,
+  "random_seed": 101,
+  "schema_version": 1,
+  "semantic_map_sha256": "9a76adc23b34bebb80449513d8ac53b3ad45cd20577db7e264b22f73bb7871d3",
+  "source_raw_triangle_labels": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h400_a090_b280_TPMC_N400000_S101\\output\\gnn_dataset\\triangle_labels.jsonl",
+  "source_raw_triangle_sha256": "4cd89cc71575400c55f4f8f369cb027245b583a15706bcf4558d236a17428f3c",
+  "status": "PASS",
+  "target_order": [
+    "Fx",
+    "Fy",
+    "Fz"
+  ],
+  "temperature_K": 868.6939086914062,
+  "training_run": false,
+  "triangle_count": 3244,
+  "triangle_labels_csv": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h400_a090_b280_TPMC_N400000_S101\\output\\gnn_dataset\\triangle_labels.csv",
+  "triangle_labels_csv_sha256": "6ca7c28d1592079942fb72aeb31bf0c9ceedc3741794d61eda9e2d7538df1bae"
+}
