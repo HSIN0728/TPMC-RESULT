@@ -1,0 +1,42 @@
+{
+  "case_id": "20270301_h250_a080_b300_TPMC_N1600000_S101",
+  "classification": "RETROSPECTIVE_CHECK_PASS",
+  "original_completion_present": true,
+  "original_formal_ui_audit_present": true,
+  "checks": {
+    "required_files": true,
+    "config_matches_at_run_snapshot": true,
+    "case_identity": true,
+    "geometry_alias": true,
+    "geometry_id": true,
+    "triangle_count": true,
+    "stl_sha256": true,
+    "altitude": true,
+    "particle_count": true,
+    "seed": true,
+    "workers": true,
+    "backend": true,
+    "output_path": true,
+    "solver_status": true,
+    "finite_values": true,
+    "production_root_protected": true
+  },
+  "missing_required_files": [],
+  "nonfinite_fields": [],
+  "source_sha256": {
+    "case_config_at_run.json": "280b0ee621813f600db24f1a6e085c234e3814054ebe951b8ec02ae90371b6dc",
+    "run_manifest.json": "d05863b6b6701c72f291fa58ea56565ac3f37f99625e15d8f4836f4cba243978",
+    "run_summary.json": "483341fc7cee6bcb0f36daf10ea50d2c1312133a5577058c63b49ff2d728b79b",
+    "force_moment.json": "da3aed95bfc97fc75c045118da05f8212123397c03d15e5e4424adb1cf3de3a3"
+  },
+  "not_original_completion": true,
+  "metadata_checks": {
+    "case_config_body_frame": true,
+    "manifest_old_rotated_geometry": true,
+    "runtime_geometry_identity": true,
+    "runtime_translation_zero": true,
+    "triangle_freestream_matches_manifest": true
+  },
+  "triangle_manifest_source_sha256": "5a55f56539c00d03e7a002d02e1e361c61a8b8621919c323a48f770c6848e43f",
+  "triangle_labels_source_sha256": "18c6cc418e195264ae5e42a39b846a987f5e3c796a571319ddc29adf603ac8f5"
+}

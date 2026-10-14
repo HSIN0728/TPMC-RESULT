@@ -1,0 +1,19 @@
+--- old/main.py
++++ new/main.py
+@@ -615,7 +615,7 @@
+     progress_interval = 500
+ 
+     if n_workers > 1:
+-        print(f"temporary particle parallel mode: n_workers={n_workers}", flush=True)
++        print(f"particle parallel mode: n_workers={n_workers}", flush=True)
+         chunk_size = max(progress_interval, int(np.ceil(n_particles / (n_workers * 32))))
+         seed_sequence = np.random.SeedSequence(seed)
+         chunk_bounds = [
+@@ -657,6 +657,7 @@
+             if os.environ.get("TPMC_UI_THREAD_WORKERS") == "1"
+             else ProcessPoolExecutor
+         )
++        print(f"particle executor: {'thread' if executor_type is ThreadPoolExecutor else 'process'}", flush=True)
+         with executor_type(
+             max_workers=n_workers,
+             initializer=_init_particle_worker,
