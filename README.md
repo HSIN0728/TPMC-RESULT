@@ -5,13 +5,16 @@
 ## 結構
 
 ```text
-results/<geometry_alias>/<case_name>/
+results/<geometry_alias>/<case_name>/                 # existing layout for other geometry aliases
+results/Av4_3244/N<particle_count>/<case_name>/       # Av4_3244 cases, grouped by particle count
 └─ output/
    ├─ tpmc/
    └─ gnn_dataset/
 ```
 
 每個 Case 另有 `result_manifest.json`；根目錄的 `RESULT_MANIFEST.json`、`RESULT_INDEX.csv` 與 `SHA256SUMS.txt` 用來查找與驗證結果。
+
+`Av4_3244` case 依粒子數分在 `results/Av4_3244/N400000/` 與 `results/Av4_3244/N1600000/`；幾何 alias 仍是 `Av4_3244`。其他幾何 alias 保持原有目錄格式。
 
 結果檔可直接下載或附加到 GPT 進行閱讀。原始 force/moment 以 Case 內的 `output/tpmc/force_moment.json` 與 `run_summary.json` 為準。
 
