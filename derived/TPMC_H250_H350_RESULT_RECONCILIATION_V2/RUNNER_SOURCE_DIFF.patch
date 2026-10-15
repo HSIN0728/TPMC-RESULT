@@ -1,0 +1,22 @@
+--- old/runner.py
++++ new/runner.py
+@@ -682,6 +682,11 @@
+     summary = {
+         "status": "PASS",
+         "runtime": float(runtime_s),
++        "particle_executor": (
++            "serial" if int(result.get("case_n_workers", result.get("n_workers", 1))) <= 1
++            else "thread" if os.environ.get("TPMC_UI_THREAD_WORKERS") == "1"
++            else "process"
++        ),
+         **{key: result.get(key) for key in (
+             "Fx", "Fy", "Fz",
+             "Drag", "Side", "Lift",
+@@ -749,6 +754,7 @@
+         "particle_count": result.get("n_particles"),
+         "random_seed": result.get("seed"),
+         "n_workers": result.get("case_n_workers", result.get("n_workers")),
++        "particle_executor": summary["particle_executor"],
+         "solver_mode": result.get("solver_mode"),
+         "intersection_backend": result.get("intersection_backend"),
+         "tpmc_repository_path": str(REPO_ROOT),

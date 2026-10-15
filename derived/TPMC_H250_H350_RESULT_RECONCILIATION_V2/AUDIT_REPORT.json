@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "classification": "DERIVED_CHECK_PASS_PROVENANCE_GAPS_REMAIN",
+  "source_cases": 332,
+  "reference_directions": 166,
+  "source_main_sha_counts": {
+    "4b8704143ffa180aae22839ef0a86b0e753864f36d5bf65adc45f7f2ad3d6492": 25,
+    "9faba9a716d5133f0609da8181f8c741aba810b2a0e4d737dfc124a49c31c946": 307
+  },
+  "source_runner_sha_counts": {
+    "ed5f1ba38ca6233fa883e2398e627be020b934e8b0abb10a457335c1b4250c73": 25,
+    "ec62d11f5e0c2bfdfadb11fd2f89e0e6bcbef395437a38932a3f4ea1f21f7733": 307
+  },
+  "source_main_sha_counts_by_altitude": {
+    "250": {
+      "4b8704143ffa180aae22839ef0a86b0e753864f36d5bf65adc45f7f2ad3d6492": 25,
+      "9faba9a716d5133f0609da8181f8c741aba810b2a0e4d737dfc124a49c31c946": 141
+    },
+    "350": {
+      "9faba9a716d5133f0609da8181f8c741aba810b2a0e4d737dfc124a49c31c946": 166
+    }
+  },
+  "source_output_file_counts_by_altitude": {
+    "250": {
+      "10": 26,
+      "12": 140
+    },
+    "350": {
+      "12": 166
+    }
+  },
+  "missing_completion_cases": [
+    "20270301_h250_a000_b000_TPMC_N1600000_S101",
+    "20270301_h250_a020_b000_TPMC_N1600000_S101",
+    "20270301_h250_a020_b020_TPMC_N1600000_S101",
+    "20270301_h250_a020_b040_TPMC_N1600000_S101",
+    "20270301_h250_a020_b060_TPMC_N1600000_S101",
+    "20270301_h250_a020_b080_TPMC_N1600000_S101",
+    "20270301_h250_a020_b100_TPMC_N1600000_S101",
+    "20270301_h250_a020_b120_TPMC_N1600000_S101",
+    "20270301_h250_a020_b140_TPMC_N1600000_S101",
+    "20270301_h250_a020_b160_TPMC_N1600000_S101",
+    "20270301_h250_a020_b180_TPMC_N1600000_S101",
+    "20270301_h250_a020_b200_TPMC_N1600000_S101",
+    "20270301_h250_a020_b220_TPMC_N1600000_S101",
+    "20270301_h250_a020_b240_TPMC_N1600000_S101",
+    "20270301_h250_a020_b260_TPMC_N1600000_S101",
+    "20270301_h250_a020_b280_TPMC_N1600000_S101",
+    "20270301_h250_a020_b300_TPMC_N1600000_S101",
+    "20270301_h250_a020_b320_TPMC_N1600000_S101",
+    "20270301_h250_a020_b340_TPMC_N1600000_S101",
+    "20270301_h250_a040_b000_TPMC_N1600000_S101",
+    "20270301_h250_a040_b020_TPMC_N1600000_S101",
+    "20270301_h250_a040_b040_TPMC_N1600000_S101",
+    "20270301_h250_a040_b060_TPMC_N1600000_S101",
+    "20270301_h250_a040_b080_TPMC_N1600000_S101",
+    "20270301_h250_a040_b100_TPMC_N1600000_S101",
+    "20270301_h250_a040_b120_TPMC_N1600000_S101"
+  ],
+  "missing_formal_ui_audit_cases": [
+    "20270301_h250_a000_b000_TPMC_N1600000_S101",
+    "20270301_h250_a020_b000_TPMC_N1600000_S101",
+    "20270301_h250_a020_b020_TPMC_N1600000_S101",
+    "20270301_h250_a020_b040_TPMC_N1600000_S101",
+    "20270301_h250_a020_b060_TPMC_N1600000_S101",
+    "20270301_h250_a020_b080_TPMC_N1600000_S101",
+    "20270301_h250_a020_b100_TPMC_N1600000_S101",
+    "20270301_h250_a020_b120_TPMC_N1600000_S101",
+    "20270301_h250_a020_b140_TPMC_N1600000_S101",
+    "20270301_h250_a020_b160_TPMC_N1600000_S101",
+    "20270301_h250_a020_b180_TPMC_N1600000_S101",
+    "20270301_h250_a020_b200_TPMC_N1600000_S101",
+    "20270301_h250_a020_b220_TPMC_N1600000_S101",
+    "20270301_h250_a020_b240_TPMC_N1600000_S101",
+    "20270301_h250_a020_b260_TPMC_N1600000_S101",
+    "20270301_h250_a020_b280_TPMC_N1600000_S101",
+    "20270301_h250_a020_b300_TPMC_N1600000_S101",
+    "20270301_h250_a020_b320_TPMC_N1600000_S101",
+    "20270301_h250_a020_b340_TPMC_N1600000_S101",
+    "20270301_h250_a040_b000_TPMC_N1600000_S101",
+    "20270301_h250_a040_b020_TPMC_N1600000_S101",
+    "20270301_h250_a040_b040_TPMC_N1600000_S101",
+    "20270301_h250_a040_b060_TPMC_N1600000_S101",
+    "20270301_h250_a040_b080_TPMC_N1600000_S101",
+    "20270301_h250_a040_b100_TPMC_N1600000_S101",
+    "20270301_h250_a040_b120_TPMC_N1600000_S101"
+  ],
+  "wind_axis_changed_cases": [
+    "20270301_h250_a090_b090_TPMC_N1600000_S101",
+    "20270301_h250_a090_b270_TPMC_N1600000_S101",
+    "20270301_h350_a090_b090_TPMC_N1600000_S101",
+    "20270301_h350_a090_b270_TPMC_N1600000_S101"
+  ],
+  "triangle_force_pass_cases": 332,
+  "triangle_moment_pass_cases": 332,
+  "triangle_metadata_attitude_mismatch_cases": 332,
+  "error_counts": {},
+  "version_diff": {
+    "hashes": {
+      "old_main": "4b8704143ffa180aae22839ef0a86b0e753864f36d5bf65adc45f7f2ad3d6492",
+      "new_main": "9faba9a716d5133f0609da8181f8c741aba810b2a0e4d737dfc124a49c31c946",
+      "old_runner": "ed5f1ba38ca6233fa883e2398e627be020b934e8b0abb10a457335c1b4250c73",
+      "new_runner": "ec62d11f5e0c2bfdfadb11fd2f89e0e6bcbef395437a38932a3f4ea1f21f7733"
+    },
+    "main_changed_lines": [
+      "-        print(f\"temporary particle parallel mode: n_workers={n_workers}\", flush=True)",
+      "+        print(f\"particle parallel mode: n_workers={n_workers}\", flush=True)",
+      "+        print(f\"particle executor: {'thread' if executor_type is ThreadPoolExecutor else 'process'}\", flush=True)"
+    ],
+    "runner_changed_lines": [
+      "+        \"particle_executor\": (",
+      "+            \"serial\" if int(result.get(\"case_n_workers\", result.get(\"n_workers\", 1))) <= 1",
+      "+            else \"thread\" if os.environ.get(\"TPMC_UI_THREAD_WORKERS\") == \"1\"",
+      "+            else \"process\"",
+      "+        ),",
+      "+        \"particle_executor\": summary[\"particle_executor\"],"
+    ]
+  },
+  "limitations": [
+    "Derivative only; no original result, frozen dataset, or published repository was changed.",
+    "H450 Formal V2 direction-matched axes are used for reprojection; this does not alter TPMC forces.",
+    "Component values are reconstructed from existing triangle labels and are not new simulation outputs.",
+    "Missing completion/formal audit records, if any, are not fabricated by this audit.",
+    "TPMC/SPARTA atmosphere comparison is deliberately excluded."
+  ]
+}

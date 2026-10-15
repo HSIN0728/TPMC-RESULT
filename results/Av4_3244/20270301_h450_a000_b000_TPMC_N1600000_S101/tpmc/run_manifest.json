@@ -10,7 +10,7 @@
     "attitude_representation": "body_frame_incidence_direction",
     "beta_deg": 0.0,
     "direction_mode": "s2_incidence",
-    "direction_set": "S2_CUSTOM",
+    "direction_set": "S2_166_FORMAL",
     "pitch_deg": 0.0,
     "roll_deg": 0.0,
     "yaw_deg": 0.0
@@ -29,21 +29,21 @@
       0.0
     ]
   },
-  "case_config_at_run_sha256": "6082bfd1988052062e63e193e805f023d9189fa3dbb5b03cf20519d92b74c560",
+  "case_config_at_run_sha256": "145ea62c8b68135d56fdb855a5702104298181bcacad93d2beddea0e16245db0",
   "case_config_at_run_snapshot": {
     "attitude": {
       "alpha_deg": 0.0,
       "attitude_representation": "body_frame_incidence_direction",
       "beta_deg": 0.0,
       "direction_mode": "s2_incidence",
-      "direction_set": "S2_CUSTOM",
+      "direction_set": "S2_166_FORMAL",
       "pitch_deg": 0.0,
       "roll_deg": 0.0,
       "yaw_deg": 0.0
     },
     "batch": {
-      "case_count": 1,
-      "mode": "s2_custom",
+      "case_count": 166,
+      "mode": "s2_formal_166",
       "sequence": 1,
       "sweep_axis": null
     },
@@ -204,7 +204,7 @@
       "wall_temperature_K": 300.0
     }
   },
-  "case_config_at_run_snapshot_path": "D:\\SATELLA_TPMC_UI\\data\\cases\\Av4_3244\\20270301_h450_a000_b000_TPMC_N1600000_S101\\output\\tpmc\\case_config_at_run.json",
+  "case_config_at_run_snapshot_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h450_a000_b000_TPMC_N1600000_S101\\output\\tpmc\\case_config_at_run.json",
   "case_config_hash_canonicalization": "UTF-8 JSON, ensure_ascii=false, sorted keys, compact separators",
   "case_name": "20270301_h450_a000_b000_TPMC_N1600000_S101",
   "component_output": "AUTHORITY_GATED_NOT_GENERATED",
@@ -324,22 +324,22 @@
   "geometry_triangle_count": 3244,
   "geometry_units": "m",
   "git_provenance_capture": "before_simulation",
-  "git_provenance_captured_at": "2026-10-12T17:44:27.047526+00:00",
-  "git_sha": null,
-  "git_worktree_dirty": null,
+  "git_provenance_captured_at": "2026-10-14T05:44:48.011853+00:00",
+  "git_sha": "a7ad638b9606a1522c9b23e20ccafdf81677bf64",
+  "git_worktree_dirty": true,
   "gnn_dataset_export": {
     "enabled": true,
     "geometry_id": "satella-v3-adcs-curvature-A-v4",
-    "labels_path": "D:\\SATELLA_TPMC_UI\\data\\cases\\Av4_3244\\20270301_h450_a000_b000_TPMC_N1600000_S101\\output\\gnn_dataset\\triangle_labels.csv",
-    "manifest_path": "D:\\SATELLA_TPMC_UI\\data\\cases\\Av4_3244\\20270301_h450_a000_b000_TPMC_N1600000_S101\\output\\gnn_dataset\\gnn_dataset_manifest.json",
+    "labels_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h450_a000_b000_TPMC_N1600000_S101\\output\\gnn_dataset\\triangle_labels.csv",
+    "manifest_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h450_a000_b000_TPMC_N1600000_S101\\output\\gnn_dataset\\gnn_dataset_manifest.json",
     "mapped_stl_sha256": "94735a1dcf4a533fcecc90e1ee6ae9a10b83329fcf37a356e3a4939d8eafb9a4",
-    "mapping_manifest_path": "D:\\SATELLA_TPMC_UI\\data\\geometry\\Av4_3244\\mapping\\stl_facet_semantic_map_manifest.json",
-    "mapping_path": "D:\\SATELLA_TPMC_UI\\data\\geometry\\Av4_3244\\mapping\\stl_facet_semantic_map.jsonl",
-    "sample_manifest_path": "D:\\SATELLA_TPMC_UI\\data\\cases\\Av4_3244\\20270301_h450_a000_b000_TPMC_N1600000_S101\\output\\gnn_dataset\\sample_manifest.json",
+    "mapping_manifest_path": "D:\\TPMC\\data\\geometry\\Av4_3244\\mapping\\stl_facet_semantic_map_manifest.json",
+    "mapping_path": "D:\\TPMC\\data\\geometry\\Av4_3244\\mapping\\stl_facet_semantic_map.jsonl",
+    "sample_manifest_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h450_a000_b000_TPMC_N1600000_S101\\output\\gnn_dataset\\sample_manifest.json",
     "semantic_map_manifest_sha256": "b22eb425678709f89abe508345edab07190f7db54a01cfc52d7f4b979b4b2e26",
     "semantic_map_sha256": "9a76adc23b34bebb80449513d8ac53b3ad45cd20577db7e264b22f73bb7871d3",
     "status": "PASS",
-    "stl_path": "D:\\SATELLA_TPMC_UI\\data\\geometry\\Av4_3244\\source\\satellite.stl",
+    "stl_path": "D:\\TPMC\\data\\geometry\\Av4_3244\\source\\satellite.stl",
     "triangle_count": 3244,
     "type": "semantic"
   },
@@ -348,7 +348,7 @@
   "gnn_training_run": false,
   "intersection_backend": "bvh",
   "n_workers": 8,
-  "output_path": "D:\\SATELLA_TPMC_UI\\data\\cases\\Av4_3244\\20270301_h450_a000_b000_TPMC_N1600000_S101\\output\\tpmc",
+  "output_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h450_a000_b000_TPMC_N1600000_S101\\output\\tpmc",
   "particle_count": 1600000,
   "particle_executor": "process",
   "random_seed": 101,
@@ -363,14 +363,15 @@
   "solver_output_schema": "TPMC-run-summary-2.1-sparta-wind-axis",
   "solver_source_sha256": {
     "TPMC/aerodynamic_reference.py": "e52acc980922beffbd651395a35e8bf7a0300aa91c5b053de2d142aba6f9612f",
-    "TPMC/attitude.py": "bc7d05cebb8c4d117681a5da2cf4a2eec26972a8163f0451d3b1cae0bc710ef1",
+    "TPMC/atmosphere/base.py": "ab44aaf5a3ce50a1b1ae1742068cfd44cb0eae3e969cd544bbd052d78390ca83",
+    "TPMC/attitude.py": "40cf544516f320bcdc6f49e0219b46175e069b2199ef451ebd3b0d2034d9885f",
     "TPMC/flow_conventions.py": "a783a6f045581d849da7e051060441149b1fd6beb289764f6222e67b2e453fa0",
-    "TPMC/main.py": "9faba9a716d5133f0609da8181f8c741aba810b2a0e4d737dfc124a49c31c946",
-    "TPMC/physics/reference.py": "c70a140da1857a607af6f6908f5d33dfb679ce068fc09601e1e2174c6a1097c9",
+    "TPMC/main.py": "471fcede3315b42aee5d599bb4092d9a54e7c6907e2366b9e31ef98c680a8209",
+    "TPMC/physics/reference.py": "78adbe8ed4530b379e6c0ba68070b52b30fed7bc9b160b93c7d44f351b0ee78b",
     "TPMC/physics/surface_model.py": "a5d4fc675ff21ad238ef0a9bb205b73efce19c335d0d98b223faf69adec5e9b9",
     "TPMC/physics/tracer.py": "c39fa7c7778cdcf5e7b834aeea2792e2bf17f0ee6ee85a7e3d4b08cd73259724",
     "TPMC/tpmc_v2/solver_adapter.py": "75304c0d59f15d858ec017d542e60326e2f1a026bf80106a1a76f0b0d35bbd6e",
-    "runners/run_tpmc_case.py": "ec62d11f5e0c2bfdfadb11fd2f89e0e6bcbef395437a38932a3f4ea1f21f7733"
+    "runners/run_tpmc_case.py": "923046fb7625b0d72234cfe5684e8bf66dbd43e671c9009efe382da7583e40fb"
   },
   "source_geometry_authority": "D:\\TPMC\\SATELLA_NEW_GEOMETRY\\candidates\\satella-v3-adcs-curvature-A-v4\\mapped.stl",
   "surface_model": {
@@ -382,7 +383,7 @@
     "sparta_equivalent": "surf_collide satwall diffuse 300 1",
     "wall_temperature_K": 300.0
   },
-  "timestamp": "2026-10-12T17:48:23.914187+00:00",
-  "tpmc_repository_path": "D:\\SATELLA_TPMC_UI\\runtime\\releases\\0.1.10\\app",
+  "timestamp": "2026-10-14T05:47:05.146765+00:00",
+  "tpmc_repository_path": "D:\\TPMC\\tpmc-sat-aero-gnn-snapshot",
   "triangle_output": "AUTHORITY_GATED_NOT_GENERATED"
 }

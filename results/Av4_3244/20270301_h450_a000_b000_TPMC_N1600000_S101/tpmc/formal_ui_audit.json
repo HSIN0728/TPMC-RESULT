@@ -1,9 +1,9 @@
 {
   "schema_version": "TPMC_UI_FORMAL_OUTPUT_CONTRACT_V1",
   "status": "PASS",
-  "validated_at_utc": "2026-10-12T17:48:24.081590+00:00",
-  "case_path": "D:\\SATELLA_TPMC_UI\\data\\cases\\Av4_3244\\20270301_h450_a000_b000_TPMC_N1600000_S101",
-  "output_path": "D:\\SATELLA_TPMC_UI\\data\\cases\\Av4_3244\\20270301_h450_a000_b000_TPMC_N1600000_S101\\output\\tpmc",
+  "validated_at_utc": "2026-10-14T05:47:05.284829+00:00",
+  "case_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h450_a000_b000_TPMC_N1600000_S101",
+  "output_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h450_a000_b000_TPMC_N1600000_S101\\output\\tpmc",
   "checks": {
     "required_files": "PASS",
     "case_identity": "PASS",
@@ -19,15 +19,24 @@
     "output_path": "PASS",
     "solver_status": "PASS",
     "finite_values": "PASS",
-    "production_root_protected": "PASS"
+    "production_root_protected": "PASS",
+    "gnn_export_status": "PASS",
+    "gnn_required_files": "PASS",
+    "gnn_attitude_metadata": "PASS",
+    "gnn_triangle_count": "PASS",
+    "gnn_component_force_closure": "PASS",
+    "gnn_component_moment_closure": "PASS",
+    "gnn_component_triangle_counts": "PASS",
+    "gnn_triangle_force_closure": "PASS",
+    "gnn_triangle_moment_closure": "PASS"
   },
   "missing_files": [],
   "nonfinite_fields": [],
   "canonical_files": {
-    "case_config_at_run.json": "ef70daadbf7c56711ba749d23d748f8d972b70fdc6ea69ac798e902771608544",
-    "run_manifest.json": "b1bd6d8b84d7edc5404932e10a97bc9e5ca9c0247385e2de5353e9e6ac684e46",
-    "run_summary.json": "cbb6a904d0c32849d0b0c9a61c031d4d773dc843ed0e21f9738c16a55858d652",
-    "force_moment.json": "ffea7eec4b3f9185c09e2368203adb918dacbd1f917248136b5b76586c8485ed"
+    "case_config_at_run.json": "6006557813ee89130c611efbe7fdccef6acd633db1ebcb8b25bba431374e9f0a",
+    "run_manifest.json": "dff2542003f557726bda0ff61f9ecfd0d64e634dc1de7dcf4e1c8ac71dccad4f",
+    "run_summary.json": "9e3d0e6936b604a26de3dc0056ce243eac3811e2b9beb118f5788f65aeb85207",
+    "force_moment.json": "d4f2a43d18662c4a6442b6e38f31dd1a4e088268fe35281821d98752338b7ba8"
   },
   "source_geometry_sha256": "94735a1dcf4a533fcecc90e1ee6ae9a10b83329fcf37a356e3a4939d8eafb9a4",
   "particle_count": 1600000,
