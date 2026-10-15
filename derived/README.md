@@ -1,15 +1,25 @@
-# H250/H350 derived corrections (N=1,600,000, seed 101)
+# Versioned derived audit packages (N=1,600,000, seed 101)
 
-This directory contains **postprocessed, versioned derivatives**, not replacement TPMC outputs. The original files under `results/` and the root `RESULT_MANIFEST.json`, `RESULT_INDEX.csv`, and `SHA256SUMS.txt` remain unchanged. Do not treat a retrospective validation file as an original completion record.
+These are non-authoritative, versioned postprocessing and validation artifacts. They do not replace TPMC outputs under `results/`. `RESULT_INDEX.csv` and `RESULT_MANIFEST.json` remain unchanged; missing historical run records are never fabricated.
 
-For the 166 directions at each of 250 and 350 km, use:
+## H200/H300/H400 component and wind-axis overlay
 
-- [`TPMC_H250_H350_RESULT_RECONCILIATION_V2/REPROJECTED_COEFFICIENTS_AND_COMPONENTS.csv`](TPMC_H250_H350_RESULT_RECONCILIATION_V2/REPROJECTED_COEFFICIENTS_AND_COMPONENTS.csv) for direction-matched `Cd`, `Cl`, `Cs` and the reconstructed body/sailWall/solar force and moment components.
-- [`TPMC_H250_H350_METADATA_COMPONENT_REPAIR_V1/INDEX.csv`](TPMC_H250_H350_METADATA_COMPONENT_REPAIR_V1/INDEX.csv) to find each case's corrected triangle metadata manifest and the SHA256 of its original triangle manifest, original labels, and derivative.
-- The two directories' `README.md`, `AUDIT_REPORT.json`, and `SUMMARY.json` for methods, checks, and limitations.
+See [`TPMC_H200_H300_H400_METADATA_COMPONENT_WIND_AXIS_REPAIR_V1/README.md`](TPMC_H200_H300_H400_METADATA_COMPONENT_WIND_AXIS_REPAIR_V1/README.md) and its `INDEX.csv`, `SUMMARY.json`, and `REPROJECTED_COEFFICIENTS_AND_COMPONENTS.csv`.
 
-The source Git blobs for `triangle_dataset_manifest.json`, `triangle_labels.csv`, `run_summary.json`, and `force_moment.json` were checked byte-for-byte against the local audited inputs for all 332 cases (1,328 blob comparisons, zero mismatches). The copied derivative package also passed 996 source/derivative SHA256 checks before publication.
+- 498/498 cases: triangle-force and triangle-moment closure passed.
+- H200 source component metadata: 52/166 cases all-zero; the other 114/166 match triangle-label component sums.
+- H300 and H400 source component metadata: 166/166 all-zero at each altitude; their reconstructed component values are provided only in the derived overlay.
+- Wind-axis changes relative to the matching-direction H450 basis: two singular +Z/-Z cases each at H300 and H400; H200 axes already agree.
 
-The wind-axis convention changes `Cl` and `Cs` in exactly four pole cases (`a090_b090` and `a090_b270` at both altitudes). Force and moment triangle-to-total closure passed in 332/332 cases. The corrected per-case triangle manifest is an **overlay**: consumers must explicitly opt in and verify the SHA256 in `INDEX.csv`. Paths beginning `D:\TPMC\analysis\` inside copied audit records describe the analysis machine; in this repository, find the same files under `derived/` by their basename and case ID.
+## H450 component metadata audit
 
-At 250 km, 26 original cases lack `completion.json` and `formal_ui_audit.json`; the derived retrospective checks do not fill or impersonate these records. The historical solver-source variants differ only in logging and metadata in the inspected files, but bitwise numerical equivalence is not asserted. This package does not repair frozen 450 km Formal V2 component metadata, which lacks matching 1.6M triangle labels. TPMC/SPARTA atmosphere comparison is out of scope.
+See [`TPMC_H450_COMPONENT_METADATA_AUDIT_V1/README.md`](TPMC_H450_COMPONENT_METADATA_AUDIT_V1/README.md), `CASE_AUDIT.csv`, and `SUMMARY.json`.
+
+- 166/166 cases: component metadata matches sums from the original triangle labels; force and moment closure passed.
+- One original `tpmc/case_check.json` is missing for `20270301_h450_a000_b000_TPMC_N1600000_S101`; it was not recreated.
+
+## H250/H350 derived corrections
+
+See [`TPMC_H250_H350_METADATA_COMPONENT_REPAIR_V1/README.md`](TPMC_H250_H350_METADATA_COMPONENT_REPAIR_V1/README.md) and [`TPMC_H250_H350_RESULT_RECONCILIATION_V2/README.md`](TPMC_H250_H350_RESULT_RECONCILIATION_V2/README.md). These existing derivatives provide direction-matched coefficients and triangle-derived components; 26 missing historical H250 completion/audit records were not fabricated.
+
+For every package, follow its case index and verify the recorded source hashes before use. Original files remain the authority for what was produced during each TPMC run. TPMC was not rerun to create these derivatives.

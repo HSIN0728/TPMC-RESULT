@@ -22,6 +22,6 @@ results/Av4_3244/N<particle_count>/<case_name>/       # Av4_3244 cases, grouped 
 
 按 1,600,000 與 400,000 粒子數查找 case，請使用 [`catalogs/particle_count/README.md`](catalogs/particle_count/README.md) 及其中兩份 CSV。索引保留每個 case 的原始 `result_path` 和 geometry alias，沒有搬動 case 資料夾。
 
-## 250/350 km 衍生修正（N=1,600,000）
+## 多高度衍生稽核與後處理（N=1,600,000）
 
-250 與 350 km 的風軸係數、部件力／力矩及姿態 metadata 事後修正，請從 [`derived/README.md`](derived/README.md) 開始閱讀。它們是保留來源 SHA 的獨立衍生版本，**不是原始 TPMC 輸出的覆寫**。引用 Cl、Cs 或部件力時，請明確標示使用衍生版本及其限制；26 個 250 km case 缺少的原始 completion／audit 紀錄並未補造。
+200/250/300/350/400/450 km 的 component、風軸與資料完整性衍生結果，請先看 [`derived/README.md`](derived/README.md)。衍生檔保留來源 SHA，**不是原始 TPMC 輸出的覆寫**。引用重投影係數或部件力／力矩時，請明確註明衍生版本與限制；缺失的歷史 completion、audit 或 case-check 紀錄均未補造。

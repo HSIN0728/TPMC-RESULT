@@ -1,0 +1,393 @@
+{
+  "case_id": "fd39f88dc1861246",
+  "case_metadata": {
+    "A_ref": 1.0,
+    "Cd": 0.26961396585101316,
+    "Cl": 0.0018353970806066129,
+    "Cmx": -0.0004239044931491712,
+    "Cmy": 0.0015076557968845565,
+    "Cmz": -0.004138885178996996,
+    "Cx": -0.0056040135423282705,
+    "Cy": -0.0056040135423282705,
+    "Cy_body": 0.25272651139845237,
+    "Cz": 0.0939381163358235,
+    "Drag": 0.0018536826719480893,
+    "F_body_x": -3.852939429152835e-05,
+    "F_body_y": 0.0017375759947838847,
+    "F_body_z": 0.000645854742492767,
+    "F_drag": 0.0018536826719480893,
+    "F_lift": 1.261894484481062e-05,
+    "F_side": -3.852939429152835e-05,
+    "Fx": -3.852939429152835e-05,
+    "Fy": 0.0017375759947838847,
+    "Fz": 0.000645854742492767,
+    "L_ref": 1.41,
+    "Lift": 1.261894484481062e-05,
+    "Mx": -4.1094162891530005e-06,
+    "My": 1.4615521633485326e-05,
+    "Mz": -4.01231938995253e-05,
+    "Side": -3.852939429152835e-05,
+    "T_inf": 814.886474609375,
+    "aerodynamic_coefficient_schema_version": "2.1",
+    "atm_source": "manual",
+    "atmosphere_model": "manual",
+    "attitude_metadata": {
+      "attitude_convention": {
+        "body_to_reference": "Rz(yaw) @ Ry(pitch) @ Rx(roll)",
+        "freestream_reference_m_s": [
+          -7600.0,
+          0.0,
+          0.0
+        ],
+        "reference_to_body": "Rx(-roll) @ Ry(-pitch) @ Rz(-yaw)"
+      },
+      "attitude_representation": "body_frame_incidence_direction",
+      "physical_attitude": {
+        "pitch_deg": 0.0,
+        "roll_deg": 0.0,
+        "yaw_deg": 0.0
+      },
+      "runtime_freestream_vector_m_s": [
+        0.0,
+        7141.663917972904,
+        2599.3530892750823
+      ],
+      "runtime_geometry_transform": {
+        "rotation_deg": {
+          "pitch_deg": 0.0,
+          "roll_deg": 0.0,
+          "yaw_deg": 0.0
+        },
+        "rotation_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "attitude_representation": "body_frame_incidence_direction",
+    "avg_bounces_per_hit": 1.3263924400171818,
+    "bbox_x": 0.3630000000002398,
+    "bbox_y": 1.4099999999999997,
+    "bbox_z": 1.4100000000000028,
+    "canonical_triangle_record_count": 3244,
+    "canonical_triangle_unique_id_count": 3244,
+    "canonical_triangle_zero_hit_count": 703,
+    "char_length": 1.4100000000000028,
+    "component_force": {
+      "body": [
+        5.989899751529357e-07,
+        0.0005570096262950924,
+        0.00020212010615674198
+      ],
+      "sailWall": [
+        -3.933573687162056e-05,
+        0.0006864486549193439,
+        0.0002447091146545134
+      ],
+      "solar": [
+        2.0735260493929925e-07,
+        0.0004941177135694506,
+        0.00019902552168151084
+      ]
+    },
+    "component_moment": {
+      "body": [
+        2.465693890160638e-07,
+        -6.646209814536718e-06,
+        1.846516865848131e-05
+      ],
+      "sailWall": [
+        -1.4696673924959846e-06,
+        3.0200823795826397e-05,
+        -8.115666919575089e-05
+      ],
+      "solar": [
+        -2.886318285673069e-06,
+        -8.939092347804348e-06,
+        2.2568306637744386e-05
+      ]
+    },
+    "default_surface_name": "default",
+    "density_normalization_authority": "native_atmosphere",
+    "deprecated_legacy_body_axis_aerodynamic_names": {
+      "Cd_legacy": -0.0056040135423282705,
+      "Cl_legacy": 0.0939381163358235,
+      "Cy_legacy": 0.25272651139845237,
+      "F_drag_legacy": -3.852939429152835e-05,
+      "F_lift_legacy": 0.000645854742492767,
+      "F_side_legacy": 0.0017375759947838847,
+      "deprecated": true,
+      "reason": "Before schema 2.0, F_drag/F_side/F_lift and Cd/Cy/Cl were body-axis projections."
+    },
+    "eps_shift": 1.4100000000000028e-06,
+    "exoT_inf": 814.886474609375,
+    "force_coefficient_definitions": {
+      "body_axis": {
+        "Cx": "F_body_x / (q_inf * A_ref)",
+        "Cy_body": "F_body_y / (q_inf * A_ref)",
+        "Cz": "F_body_z / (q_inf * A_ref)"
+      },
+      "wind_axis": {
+        "Cd": "dot(F, e_D) / (q_inf * A_ref)",
+        "Cl": "dot(F, e_L) / (q_inf * A_ref)",
+        "Cy": "dot(F, e_S) / (q_inf * A_ref)",
+        "handedness": "cross(e_D, e_L) = e_S (ordered D-L-S is right handed)",
+        "lift_reference": "projection of body +Z (nadir) onto plane normal to e_D",
+        "side_reference": "e_S = e_D x e_L; at R0 this is +body Y",
+        "singular_lift_fallback": "project body +Y as lift, then body +X if needed",
+        "sparta_side_sign_validation": "VERIFIED_AGAINST_SPARTA_V4_FORMAL_INPUT"
+      }
+    },
+    "geometry_face_count": 3244,
+    "hit_count": 97778,
+    "hit_ratio": 0.06111125,
+    "intersection_backend": "bvh",
+    "max_bounces": 10,
+    "mean_molecular_mass_kg": 3.25041789479821e-26,
+    "moment_coefficient_definition": "Mx/My/Mz divided by q_inf * A_ref * L_ref",
+    "moment_coefficient_frame": "SATELLA body-fixed axes",
+    "n_Ar": 1895604027392.0,
+    "n_H": 243886260224.0,
+    "n_He": 18233784532992.0,
+    "n_N": 34155509317632.0,
+    "n_N2": 1970574213513216.0,
+    "n_NO": 1692691070976.0,
+    "n_O": 5125698796650496.0,
+    "n_O2": 171645163536384.0,
+    "n_particles": 1600000,
+    "n_workers": 8,
+    "native_atmosphere_source": "manual",
+    "native_species_number_density_m3": {
+      "Ar": 1895604027392.0,
+      "H": 243886260224.0,
+      "He": 18233784532992.0,
+      "N": 34155509317632.0,
+      "N2": 1970574213513216.0,
+      "NO": 1692691070976.0,
+      "O": 5125698796650496.0,
+      "O2": 171645163536384.0
+    },
+    "physical_attitude_pitch_deg": 0.0,
+    "physical_attitude_roll_deg": 0.0,
+    "physical_attitude_yaw_deg": 0.0,
+    "pitch_deg": 0.0,
+    "q_inf": 0.006875321410362035,
+    "resolved_species_mass_kg": {
+      "Ar": 6.63e-26,
+      "H": 1.67e-27,
+      "He": 6.65e-27,
+      "N": 2.325e-26,
+      "N2": 4.65e-26,
+      "NO": 4.985e-26,
+      "O": 2.657e-26,
+      "O2": 5.312e-26
+    },
+    "resolved_species_number_density_m3": {
+      "Ar": 1895604027392.0,
+      "H": 243886260224.0,
+      "He": 18233784532992.0,
+      "N": 34155509317632.0,
+      "N2": 1970574213513216.0,
+      "NO": 1692691070976.0,
+      "O": 5125698796650496.0,
+      "O2": 171645163536384.0
+    },
+    "resolved_species_number_fraction": {
+      "Ar": 0.0002588159317353114,
+      "H": 3.3298963689246254e-05,
+      "He": 0.0024895462685105025,
+      "N": 0.004663415903425372,
+      "N2": 0.2690519716956336,
+      "NO": 0.00023111125021053774,
+      "O": 0.6998363005563116,
+      "O2": 0.023435539430483807
+    },
+    "rho_inf": 2.380651457881591e-10,
+    "rho_native_kg_m3": 2.380651457881591e-10,
+    "rho_resolved_kg_m3": 2.3806514578815906e-10,
+    "roll_deg": 0.0,
+    "runtime_freestream_vector_m_s": [
+      0.0,
+      7141.663917972904,
+      2599.3530892750823
+    ],
+    "runtime_freestream_x_m_s": 0.0,
+    "runtime_freestream_y_m_s": 7141.663917972904,
+    "runtime_freestream_z_m_s": 2599.3530892750823,
+    "runtime_geometry_pitch_deg": 0.0,
+    "runtime_geometry_roll_deg": 0.0,
+    "runtime_geometry_translation_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "runtime_geometry_yaw_deg": 0.0,
+    "sample_weight": 75424140949317.78,
+    "scale_factor": 1.0,
+    "seed": 101,
+    "selected_alt_km": 200.0,
+    "selected_lat_deg": 23.0,
+    "selected_lon_deg": 120.2,
+    "solver_mode": "tpmc",
+    "source_area": 2.1680043237895834,
+    "source_plane_coverage_pass": true,
+    "source_plane_normal_alignment": 1.0,
+    "source_plane_upstream_gap_m": 1.4100000000000033,
+    "source_plane_validation": {
+      "area_m2": 2.1680043237895834,
+      "coverage_pass": true,
+      "half_height_m": 0.5340000000001206,
+      "half_width_m": 1.01498329765407,
+      "max_axis1_extent_m": 0.6624832976540693,
+      "max_axis2_extent_m": 0.1815000000001199,
+      "normal_alignment": 1.0,
+      "upstream_gap_m": 1.4100000000000033
+    },
+    "species_density_authority": "case_config",
+    "species_density_source": "case_config",
+    "species_flux_probability": {
+      "Ar": 0.0002588159302883766,
+      "H": 3.330455391975207e-05,
+      "He": 0.0024895462547697917,
+      "N": 0.004663415877354107,
+      "N2": 0.26905197019147326,
+      "NO": 0.00023111124891848857,
+      "O": 0.699836296643811,
+      "O2": 0.023435539299465222
+    },
+    "species_incident_flux_m2_s": {
+      "Ar": 1.44065906081792e+16,
+      "H": 1853846759646100.5,
+      "He": 1.385767624606101e+17,
+      "N": 2.595818708140032e+17,
+      "N2": 1.4976364022700442e+19,
+      "NO": 1.28644521394176e+16,
+      "O": 3.895531085454377e+19,
+      "O2": 1.3045032428765184e+18
+    },
+    "species_mass_authority": "case_config",
+    "species_mass_source": "case_config",
+    "species_mean_flux_speed_m_s": {
+      "Ar": 7600.0,
+      "H": 7601.275930605581,
+      "He": 7600.000000541352,
+      "N": 7600.0,
+      "N2": 7600.0,
+      "NO": 7600.0,
+      "O": 7600.0,
+      "O2": 7600.0
+    },
+    "stl_path": "D:\\TPMC\\data\\geometry\\Av4_3244\\source\\satellite.stl",
+    "strict_species_masses": true,
+    "surface_counts": "{'drag_sail': 1960, 'solar_panel': 136, 'body': 1148}",
+    "surface_model_config": {
+      "accommodation": 1.0,
+      "effective_model": "diffuse",
+      "profile": "sparta_v4_uniform_diffuse",
+      "requested_model": "diffuse",
+      "scope": "all_mapped_and_default_surfaces",
+      "sparta_equivalent": "surf_collide satwall diffuse 300 1",
+      "wall_temperature_K": 300.0
+    },
+    "target_alt_km": 200.0,
+    "target_lat_deg": 23.0,
+    "target_lon_deg": 120.2,
+    "total_bounces": 129692,
+    "total_incident_flux_m2_s": 5.5663461642902585e+19,
+    "total_number_density_m3": 7324139648909312.0,
+    "wind_axis_drag_unit_vector": [
+      0.0,
+      0.9396926207859083,
+      0.3420201433256687
+    ],
+    "wind_axis_lift_unit_vector": [
+      0.0,
+      -0.34202014332566866,
+      0.9396926207859084
+    ],
+    "wind_axis_side_unit_vector": [
+      1.0,
+      0.0,
+      -0.0
+    ],
+    "workspace_phase": "1",
+    "yaw_deg": 0.0
+  },
+  "component_counts": {
+    "body": 1148,
+    "sailWall": 1960,
+    "solar": 136
+  },
+  "dataset_artifact": {
+    "record_count": 3244,
+    "triangle_labels_jsonl_filename": "triangle_labels.jsonl",
+    "triangle_labels_jsonl_sha256": "ef88cff4be4c3ddb41b8724c42c4810909d1561aac3b3fa17136b5757115b4cf"
+  },
+  "dataset_type": "triangle_dataset",
+  "geometry_id": "satella-v3-adcs-curvature-A-v4",
+  "hit_triangle_count": 2541,
+  "provenance": {
+    "code_version_provenance_status": "verified_semantic_sidecar",
+    "geometry_contract_sha256": null,
+    "mapped_stl_sha256": "94735a1dcf4a533fcecc90e1ee6ae9a10b83329fcf37a356e3a4939d8eafb9a4",
+    "platform": null,
+    "python_version": null,
+    "run_config_sha256": null,
+    "semantic_mapping_sha256": "9a76adc23b34bebb80449513d8ac53b3ad45cd20577db7e264b22f73bb7871d3",
+    "solver_mode": "tpmc_batch_canonical_triangle_export",
+    "source_manifest_sha256": null,
+    "stl_facet_identity_jsonl_sha256": null,
+    "surface_identity_manifest_sha256": null,
+    "surface_nodes_jsonl_sha256": null,
+    "surface_triangles_jsonl_sha256": null,
+    "tpmc_git_branch": null,
+    "tpmc_git_dirty": null,
+    "tpmc_git_sha": null,
+    "tpmc_git_tag": null,
+    "workflow_publication_sha256": null
+  },
+  "schema_version": 1,
+  "triangle_count": 3244,
+  "zero_hit_count": 703,
+  "derived_repair_provenance": {
+    "schema_version": 1,
+    "classification": "DERIVED_OVERLAY_NOT_ORIGINAL_TPMC_OUTPUT",
+    "source_commit": "87bac1477c2d94c9cf4bcf2c93eb520dfe87b4be",
+    "source_case_name": "20270301_h200_a090_b020_TPMC_N1600000_S101",
+    "source_result_path": "results/Av4_3244/20270301_h200_a090_b020_TPMC_N1600000_S101",
+    "source_triangle_manifest_git_blob_oid": "366d2bfed7e5f057ed7a6beb301f07b7504f0867",
+    "source_triangle_manifest_sha256": "458b4d65d906656c1c03b1a2dcc9ec68d6c6ede4c81ffa652ee40a98fe7306da",
+    "source_triangle_labels_git_blob_oid": "25926cce1f551d8ba33c8a7996e8894fc6242ec5",
+    "source_triangle_labels_sha256": "bb6447a407e21fb346c15d39f983644a213aa24745af4847e19f6ec18551cfa0",
+    "source_case_config_at_run_git_blob_oid": "8417c46358dcb01cdfb1242e7e11e61dd7f4ceaf",
+    "source_case_config_at_run_sha256": "5697cbb046a48c0edf59c1fcc76f5151a2cecc3534a8e5d73aa1890eeb07b522",
+    "source_case_check_git_blob_oid": "a1f607fbbe269214d262a7258cfe04fe4d25d3b7",
+    "source_case_check_sha256": "9c8963aaba033b54ed8b0e42a5ecd90f717357d15d1918ace586726f3858d9c7",
+    "component_source": "sum target_F* and raw_solver_M* from the original 3,244 triangle labels by component",
+    "wind_axis_source": "same-direction H450 triangle_dataset_manifest.json (e790bbfdd8636fcaade54b2e8d20c1dfdc883fda23e24293f654184101e74839)",
+    "coefficient_source": "original case-level force projected onto the direction-matched H450 wind axes; original q_inf and A_ref",
+    "attitude_source": "case_config_at_run.json; runtime geometry transform retained from source manifest",
+    "validation_tolerance": {
+      "rel_tol": 1e-09,
+      "abs_tol": 1e-12
+    }
+  }
+}
