@@ -1,0 +1,39 @@
+{
+  "schema_version": "TPMC_UI_FORMAL_OUTPUT_CONTRACT_V1",
+  "status": "PASS",
+  "validated_at_utc": "2026-10-13T03:54:22.728545+00:00",
+  "case_path": "D:\\SATELLA_TPMC_UI\\data\\cases\\Av4_3244\\20270301_h400_a090_b090_TPMC_N1600000_S101",
+  "output_path": "D:\\SATELLA_TPMC_UI\\data\\cases\\Av4_3244\\20270301_h400_a090_b090_TPMC_N1600000_S101\\output\\tpmc",
+  "checks": {
+    "required_files": "PASS",
+    "case_identity": "PASS",
+    "geometry_alias": "PASS",
+    "geometry_id": "PASS",
+    "triangle_count": "PASS",
+    "stl_sha256": "PASS",
+    "altitude": "PASS",
+    "particle_count": "PASS",
+    "seed": "PASS",
+    "workers": "PASS",
+    "backend": "PASS",
+    "output_path": "PASS",
+    "solver_status": "PASS",
+    "finite_values": "PASS",
+    "production_root_protected": "PASS"
+  },
+  "missing_files": [],
+  "nonfinite_fields": [],
+  "canonical_files": {
+    "case_config_at_run.json": "b9795151277a7fec2e278f63677103c72adcd553d901eaf6b66551113b5f93ec",
+    "run_manifest.json": "c2621726e700f8e9237b83832cde1ddb14062ebc7066bf0d12eb15138fd25414",
+    "run_summary.json": "6f7e8fbe0457c981af914b3e9a50b891bde9084f4fe335e6e3f341a70ddd9a4b",
+    "force_moment.json": "5b8aaf279a2144370dc6192349d72a7ddbb71c3224196f2dc93bbdcb5e87e512"
+  },
+  "source_geometry_sha256": "94735a1dcf4a533fcecc90e1ee6ae9a10b83329fcf37a356e3a4939d8eafb9a4",
+  "particle_count": 1600000,
+  "seed": 101,
+  "workers": 8,
+  "backend": "bvh",
+  "triangle_count": 3244,
+  "provenance_contract": "UI case_config + run_manifest + run_summary + force_moment; no production-root writes"
+}

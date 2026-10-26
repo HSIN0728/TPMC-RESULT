@@ -1,0 +1,68 @@
+{
+  "case_id": "20270301_h200_a080_b200_TPMC_N1600000_S101",
+  "classification": "DERIVED_CHECK_PASS_ORIGINAL_OUTPUTS_PRESERVED",
+  "not_original_completion": true,
+  "original_case_check_present": true,
+  "original_completion_present": true,
+  "original_formal_ui_audit_present": true,
+  "source_sha256": {
+    "triangle_dataset_manifest.json": "c26379b630e4ac2b2f231dda41020bd93b3bcbc1cda17bf566db329671d4443b",
+    "triangle_labels.csv": "d22ea8d1c2155dc37c21a118fb29fdec8545a8e3e853bf39b8377f8c6f3b51bf",
+    "case_config_at_run.json": "d159881a06fa53975b1318b8c50987aeb72dd8a87b80508abfd9a1f882b6ba95",
+    "case_check.json": "b77007ea8f8b3c6acbd940c62117ed6d7c03198fdf4e5cb802cfbb1a10962820"
+  },
+  "source_git_blob_oids": {
+    "triangle_dataset_manifest.json": "ae432c9e133c617b7c959cc99d8841cd14afab47",
+    "triangle_labels.csv": "84b8816e94d116cc091a2ce3b4957b17f7bb3c92",
+    "case_config_at_run.json": "c147e2880c6acd6d2fb22679964edfb464133aa8",
+    "case_check.json": "4e406775522dec58130b92079915cf988d8c0641"
+  },
+  "checks": {
+    "original_case_check_pass": true,
+    "source_triangle_manifest_count": true,
+    "triangle_label_rows_and_unique_ids": true,
+    "expected_component_counts": true,
+    "finite_triangle_values": true,
+    "triangle_force_closure": true,
+    "triangle_raw_moment_closure": true,
+    "triangle_derived_moment_closure": true,
+    "component_force_sum_closure": true,
+    "component_moment_sum_closure": true,
+    "direction_reference_basis_valid": true,
+    "config_body_frame_attitude": true,
+    "source_result_path_matches_index": true
+  },
+  "triangle_count": 3244,
+  "component_counts": {
+    "sailWall": 1960,
+    "solar": 136,
+    "body": 1148
+  },
+  "triangle_force_N": [
+    -0.0007663257668246209,
+    -0.0029428779255928662,
+    -0.0010883131799913097
+  ],
+  "case_force_N": [
+    -0.0007663257668246218,
+    -0.0029428779255928628,
+    -0.0010883131799913116
+  ],
+  "triangle_raw_moment_Nm": [
+    -4.132324884526029e-08,
+    -7.238282253498346e-05,
+    0.00019874843909466392
+  ],
+  "triangle_derived_moment_Nm": [
+    -4.132324884526029e-08,
+    -7.238282253498346e-05,
+    0.00019874843909466392
+  ],
+  "case_moment_Nm": [
+    -4.1323248845265195e-08,
+    -7.238282253498323e-05,
+    0.00019874843909466428
+  ],
+  "wind_axis_basis_max_abs_difference_from_H450": 0.0,
+  "wind_axis_changed": false
+}

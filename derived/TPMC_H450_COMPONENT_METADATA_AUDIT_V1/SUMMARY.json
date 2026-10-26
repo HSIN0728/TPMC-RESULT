@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "classification": "H450_COMPONENT_LABEL_CLOSURE_AUDIT_PASS_CASE_CHECK_GAP_REMAINS",
+  "source_commit": "87bac1477c2d94c9cf4bcf2c93eb520dfe87b4be",
+  "cases": 166,
+  "triangles_per_case": 3244,
+  "component_counts_per_case": {
+    "body": 1148,
+    "sailWall": 1960,
+    "solar": 136
+  },
+  "triangle_force_closure_pass": 166,
+  "triangle_moment_closure_pass": 166,
+  "source_component_metadata_nonzero_cases": 166,
+  "source_component_metadata_matches_triangle_labels_cases": 166,
+  "source_component_metadata_mismatches": 0,
+  "case_check_present_cases": 165,
+  "missing_case_check_cases": [
+    "20270301_h450_a000_b000_TPMC_N1600000_S101"
+  ],
+  "missing_case_check_recreated": false,
+  "source_results_modified": false,
+  "tpmc_rerun": false,
+  "tolerance": {
+    "rel_tol": 1e-09,
+    "abs_tol": 1e-12
+  }
+}

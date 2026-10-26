@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "classification": "DERIVED_VALIDATION_PASS_H450_CASE_CHECK_GAP_REMAINS",
+  "source_commit": "87bac1477c2d94c9cf4bcf2c93eb520dfe87b4be",
+  "target_altitudes_km": [
+    200,
+    300,
+    400
+  ],
+  "source_cases": 498,
+  "cases_per_altitude": {
+    "200": 166,
+    "300": 166,
+    "400": 166
+  },
+  "derived_manifests": 498,
+  "retrospective_validation_pass": 498,
+  "original_component_metadata_zero_cases": {
+    "200": 52,
+    "300": 166,
+    "400": 166
+  },
+  "original_component_metadata_matching_triangle_labels_cases": {
+    "200": 114,
+    "300": 0,
+    "400": 0
+  },
+  "original_component_metadata_mismatching_or_missing_cases": {
+    "200": 52,
+    "300": 166,
+    "400": 166
+  },
+  "component_counts_per_case": {
+    "body": 1148,
+    "sailWall": 1960,
+    "solar": 136
+  },
+  "triangles_per_case": 3244,
+  "triangle_force_closure_pass": 498,
+  "triangle_moment_closure_pass": 498,
+  "wind_axis_changed_cases": {
+    "300": 2,
+    "400": 2
+  },
+  "wind_axis_reference_altitude_km": 450,
+  "h450_reference_cases": 166,
+  "h450_component_metadata_nonzero_cases": 166,
+  "h450_triangle_labels_present_cases": 166,
+  "h450_case_check_present_cases": 165,
+  "h450_missing_case_check_cases": [
+    "20270301_h450_a000_b000_TPMC_N1600000_S101"
+  ],
+  "h450_missing_case_check_recreated": false,
+  "source_results_modified": false,
+  "tpmc_rerun": false,
+  "tolerances": {
+    "rel_tol": 1e-09,
+    "abs_tol": 1e-12
+  },
+  "warnings": [
+    "Derived overlay is not an original TPMC output.",
+    "H450 case_check.json is missing for one case and was not fabricated."
+  ]
+}
