@@ -19,7 +19,7 @@
     "geometry_id": "PASS",
     "geometry_path": "PASS",
     "geometry_sha256": "PASS",
-    "gnn_dataset_export": "READY",
+    "gnn_dataset_export": "DISABLED",
     "library_sha256": "PASS",
     "library_triangle_count": "PASS",
     "output_path": "PASS",
@@ -41,16 +41,8 @@
   "geometry_alias": "Av4_3244",
   "geometry_id": "satella-v3-adcs-curvature-A-v4",
   "gnn_dataset_export": {
-    "geometry_id": "satella-v3-adcs-curvature-A-v4",
-    "mapped_stl_sha256": "94735a1dcf4a533fcecc90e1ee6ae9a10b83329fcf37a356e3a4939d8eafb9a4",
-    "mapping_manifest_path": "D:\\TPMC\\data\\geometry\\Av4_3244\\mapping\\stl_facet_semantic_map_manifest.json",
-    "mapping_path": "D:\\TPMC\\data\\geometry\\Av4_3244\\mapping\\stl_facet_semantic_map.jsonl",
-    "semantic_map_manifest_sha256": "b22eb425678709f89abe508345edab07190f7db54a01cfc52d7f4b979b4b2e26",
-    "semantic_map_sha256": "9a76adc23b34bebb80449513d8ac53b3ad45cd20577db7e264b22f73bb7871d3",
-    "status": "READY",
-    "stl_path": "D:\\TPMC\\data\\geometry\\Av4_3244\\source\\satellite.stl",
-    "triangle_count": 3244,
-    "type": "semantic"
+    "reason": "gnn_dataset_export_disabled",
+    "status": "DISABLED"
   },
   "mapping_sha256": "9a76adc23b34bebb80449513d8ac53b3ad45cd20577db7e264b22f73bb7871d3",
   "sampling_scheme": "spherical_alpha_beta_grid_20deg",

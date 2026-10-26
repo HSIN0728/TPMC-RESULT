@@ -11,7 +11,7 @@
   "batch": {
     "case_count": 0,
     "mode": "body_frame_incidence",
-    "sequence": 62,
+    "sequence": 2,
     "sweep_axis": null
   },
   "case_name": "20270301_h450_a080_b120_TPMC_N400000_S101",
@@ -27,7 +27,7 @@
       },
       "ap_source": "agi_cssi_monthly_ap",
       "atmosphere_mode": "forecast",
-      "data_retrieval": "cache",
+      "data_retrieval": "stale_cache",
       "datetime_utc": "2027-03-01T00:00:00Z",
       "fractions": {
         "Ar": 1.8781913697342745e-07,
@@ -61,7 +61,7 @@
         "f107_data_type": "PRM",
         "f107a": 125.1
       },
-      "space_weather_retrieved_at_utc": "2026-10-02T04:53:27.149206+00:00",
+      "space_weather_retrieved_at_utc": "2026-10-09T11:16:12.223951+00:00",
       "space_weather_source": "AGI/CSSI SpaceWeather-All-v1.2.txt",
       "space_weather_source_dates": {
         "ap": "2027-03-01",
@@ -83,10 +83,10 @@
         "f107": "PRM_MONTHLY",
         "f107a": "PRM_MONTHLY"
       },
-      "space_weather_source_updated": "2026 Oct 01 21:40:00.00",
+      "space_weather_source_updated": "2026 Oct 09 09:40:00.00",
       "space_weather_source_url": "https://ftp.agi.com/pub/DynamicEarthData/SpaceWeather-All-v1.2.txt",
       "space_weather_status": "forecast",
-      "space_weather_status_detail": "\u4f7f\u7528 AGI/CSSI MONTHLY_PREDICTED \u5217\u4e2d\u7684 F10.7\u3001F10.7a \u8207 Ap Avg\u3002",
+      "space_weather_status_detail": "\u4f7f\u7528 AGI/CSSI MONTHLY_PREDICTED \u5217\u4e2d\u7684 F10.7\u3001F10.7a \u8207 Ap Avg\u3002 \u6700\u65b0\u8cc7\u6599\u4e0b\u8f09\u5931\u6557\uff0c\u66ab\u6642\u4f7f\u7528\u904e\u671f\u5feb\u53d6\u3002",
       "temperature_K": 868.8775634765625,
       "total_number_density_m3": 40315899764097.5
     },
@@ -138,7 +138,7 @@
     "model_id": null
   },
   "gnn_dataset_export": {
-    "enabled": true,
+    "enabled": false,
     "format": "force_only_v1",
     "output_directory": "output/gnn_dataset"
   },
@@ -146,7 +146,7 @@
     "directory": "output/tpmc"
   },
   "physical_case_name": "20270301_h450",
-  "sampling_scheme": "spherical_alpha_beta_20deg_with_equator_and_cardinal_augmentation",
+  "sampling_scheme": "custom_body_frame_incidence_directions",
   "simulation": {
     "A_ref": 1.0,
     "CG": [
@@ -157,7 +157,7 @@
     "L_ref": 1.41,
     "density_normalization_authority": "native_atmosphere",
     "intersection_backend": "bvh",
-    "n_workers": 10,
+    "n_workers": 8,
     "particle_count": 400000,
     "random_seed": 101,
     "solver_mode": "tpmc"
