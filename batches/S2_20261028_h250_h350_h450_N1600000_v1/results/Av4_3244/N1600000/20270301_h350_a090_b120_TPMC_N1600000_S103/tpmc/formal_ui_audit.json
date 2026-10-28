@@ -1,0 +1,39 @@
+{
+  "schema_version": "TPMC_UI_FORMAL_OUTPUT_CONTRACT_V1",
+  "status": "PASS",
+  "validated_at_utc": "2026-10-28T07:46:12.921266+00:00",
+  "case_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h350_a090_b120_TPMC_N1600000_S103",
+  "output_path": "D:\\TPMC\\data\\cases\\Av4_3244\\20270301_h350_a090_b120_TPMC_N1600000_S103\\output\\tpmc",
+  "checks": {
+    "required_files": "PASS",
+    "case_identity": "PASS",
+    "geometry_alias": "PASS",
+    "geometry_id": "PASS",
+    "triangle_count": "PASS",
+    "stl_sha256": "PASS",
+    "altitude": "PASS",
+    "particle_count": "PASS",
+    "seed": "PASS",
+    "workers": "PASS",
+    "backend": "PASS",
+    "output_path": "PASS",
+    "solver_status": "PASS",
+    "finite_values": "PASS",
+    "production_root_protected": "PASS"
+  },
+  "missing_files": [],
+  "nonfinite_fields": [],
+  "canonical_files": {
+    "case_config_at_run.json": "21c244ae6ffa9fbfecf0fa13d185c7eec800d8b9c4ef950e5ea18a01f6ef0c6a",
+    "run_manifest.json": "3daf7ff237fb552467a3a5660ef51571b89f45c922fe014edcf33ae3abc58987",
+    "run_summary.json": "e2a8fe71810d5923b788030b9e2033918dcc6bedb48601a7d53175e2ef798386",
+    "force_moment.json": "f7099302fbe74ab8f1b09e4c09750eb5bf36c068eb4793564161265efebd2259"
+  },
+  "source_geometry_sha256": "94735a1dcf4a533fcecc90e1ee6ae9a10b83329fcf37a356e3a4939d8eafb9a4",
+  "particle_count": 1600000,
+  "seed": 103,
+  "workers": 8,
+  "backend": "bvh",
+  "triangle_count": 3244,
+  "provenance_contract": "UI case_config + run_manifest + run_summary + force_moment; no production-root writes"
+}
